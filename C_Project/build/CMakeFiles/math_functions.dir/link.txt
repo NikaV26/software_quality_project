@@ -1,0 +1,1 @@
+C:\PROGRA~1\CODEBL~1\MinGW\bin\ar.exe qc libmath_functions.a CMakeFiles/math_functions.dir/math_functions.c.obj

@@ -1,0 +1,18 @@
+Start testing: May 22 15:23 Mitteleuropäische Sommerzeit
+----------------------------------------------------------
+1/1 Testing: unit_tests
+1/1 Test: unit_tests
+Command: "C:/SQProject/C_Project/build/test_runner.exe"
+Directory: C:/SQProject/C_Project/build
+"unit_tests" start time: May 22 15:23 Mitteleuropäische Sommerzeit
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"unit_tests" end time: May 22 15:23 Mitteleuropäische Sommerzeit
+"unit_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: May 22 15:23 Mitteleuropäische Sommerzeit

@@ -1,0 +1,2548 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Windows - 10.0.26200 - AMD64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeMinGWFindMake.cmake:5 (find_program)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_MAKE_PROGRAM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "mingw32-make.exe"
+    candidate_directories:
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/nikav/scoop/apps/python313/current/Scripts/"
+      - "C:/Users/nikav/scoop/apps/python313/current/"
+      - "C:/Users/nikav/scoop/apps/git/current/bin/"
+      - "C:/Users/nikav/scoop/shims/"
+      - "C:/Users/nikav/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/nikav/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/altera/13.1/modelsim_ase/win32aloem/"
+      - "C:/MinGW/bin/"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/bin/"
+      - "/REGISTRY-NOTFOUND/bin/"
+      - "c:/MinGW/bin/"
+      - "/MinGW/bin/"
+      - "C:/Program Files/CodeBlocks/MinGW/bin/"
+    searched_directories:
+      - "C:/Windows/System32/mingw32-make.exe.com"
+      - "C:/Windows/System32/mingw32-make.exe"
+      - "C:/Windows/mingw32-make.exe.com"
+      - "C:/Windows/mingw32-make.exe"
+      - "C:/Windows/System32/wbem/mingw32-make.exe.com"
+      - "C:/Windows/System32/wbem/mingw32-make.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mingw32-make.exe.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mingw32-make.exe"
+      - "C:/Windows/System32/OpenSSH/mingw32-make.exe.com"
+      - "C:/Windows/System32/OpenSSH/mingw32-make.exe"
+      - "C:/Program Files/Git/cmd/mingw32-make.exe.com"
+      - "C:/Program Files/Git/cmd/mingw32-make.exe"
+      - "C:/Users/nikav/scoop/apps/python313/current/Scripts/mingw32-make.exe.com"
+      - "C:/Users/nikav/scoop/apps/python313/current/Scripts/mingw32-make.exe"
+      - "C:/Users/nikav/scoop/apps/python313/current/mingw32-make.exe.com"
+      - "C:/Users/nikav/scoop/apps/python313/current/mingw32-make.exe"
+      - "C:/Users/nikav/scoop/apps/git/current/bin/mingw32-make.exe.com"
+      - "C:/Users/nikav/scoop/apps/git/current/bin/mingw32-make.exe"
+      - "C:/Users/nikav/scoop/shims/mingw32-make.exe.com"
+      - "C:/Users/nikav/scoop/shims/mingw32-make.exe"
+      - "C:/Users/nikav/AppData/Local/Microsoft/WindowsApps/mingw32-make.exe.com"
+      - "C:/Users/nikav/AppData/Local/Microsoft/WindowsApps/mingw32-make.exe"
+      - "C:/Users/nikav/AppData/Local/Programs/Microsoft VS Code/bin/mingw32-make.exe.com"
+      - "C:/Users/nikav/AppData/Local/Programs/Microsoft VS Code/bin/mingw32-make.exe"
+      - "C:/altera/13.1/modelsim_ase/win32aloem/mingw32-make.exe.com"
+      - "C:/altera/13.1/modelsim_ase/win32aloem/mingw32-make.exe"
+      - "C:/MinGW/bin/mingw32-make.exe.com"
+      - "C:/MinGW/bin/mingw32-make.exe"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/bin/mingw32-make.exe.com"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/bin/mingw32-make.exe"
+      - "/REGISTRY-NOTFOUND/bin/mingw32-make.exe.com"
+      - "/REGISTRY-NOTFOUND/bin/mingw32-make.exe"
+      - "c:/MinGW/bin/mingw32-make.exe.com"
+      - "c:/MinGW/bin/mingw32-make.exe"
+      - "/MinGW/bin/mingw32-make.exe.com"
+      - "/MinGW/bin/mingw32-make.exe"
+      - "C:/Program Files/CodeBlocks/MinGW/bin/mingw32-make.exe.com"
+    found: "C:/Program Files/CodeBlocks/MinGW/bin/mingw32-make.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\nikav\\scoop\\apps\\python313\\current\\Scripts"
+        - "C:\\Users\\nikav\\scoop\\apps\\python313\\current"
+        - "C:\\Users\\nikav\\scoop\\apps\\git\\current\\bin"
+        - "C:\\Users\\nikav\\scoop\\shims"
+        - "C:\\Users\\nikav\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\nikav\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\altera\\13.1\\modelsim_ase\\win32aloem"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\cmake-4.3.2-windows-x86_64\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCompiler.cmake:63 (find_program)"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:64 (_cmake_find_compiler)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER"
+    description: "C compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: false
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "cc"
+      - "gcc"
+      - "cl"
+      - "bcc"
+      - "xlc"
+      - "icx"
+      - "clang"
+    candidate_directories:
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/nikav/scoop/apps/python313/current/Scripts/"
+      - "C:/Users/nikav/scoop/apps/python313/current/"
+      - "C:/Users/nikav/scoop/apps/git/current/bin/"
+      - "C:/Users/nikav/scoop/shims/"
+      - "C:/Users/nikav/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/nikav/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/altera/13.1/modelsim_ase/win32aloem/"
+      - "C:/MinGW/bin/"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/bin/"
+    searched_directories:
+      - "C:/Windows/System32/cc.com"
+      - "C:/Windows/System32/cc.exe"
+      - "C:/Windows/System32/cc"
+      - "C:/Windows/System32/gcc.com"
+      - "C:/Windows/System32/gcc.exe"
+      - "C:/Windows/System32/gcc"
+      - "C:/Windows/System32/cl.com"
+      - "C:/Windows/System32/cl.exe"
+      - "C:/Windows/System32/cl"
+      - "C:/Windows/System32/bcc.com"
+      - "C:/Windows/System32/bcc.exe"
+      - "C:/Windows/System32/bcc"
+      - "C:/Windows/System32/xlc.com"
+      - "C:/Windows/System32/xlc.exe"
+      - "C:/Windows/System32/xlc"
+      - "C:/Windows/System32/icx.com"
+      - "C:/Windows/System32/icx.exe"
+      - "C:/Windows/System32/icx"
+      - "C:/Windows/System32/clang.com"
+      - "C:/Windows/System32/clang.exe"
+      - "C:/Windows/System32/clang"
+      - "C:/Windows/cc.com"
+      - "C:/Windows/cc.exe"
+      - "C:/Windows/cc"
+      - "C:/Windows/gcc.com"
+      - "C:/Windows/gcc.exe"
+      - "C:/Windows/gcc"
+      - "C:/Windows/cl.com"
+      - "C:/Windows/cl.exe"
+      - "C:/Windows/cl"
+      - "C:/Windows/bcc.com"
+      - "C:/Windows/bcc.exe"
+      - "C:/Windows/bcc"
+      - "C:/Windows/xlc.com"
+      - "C:/Windows/xlc.exe"
+      - "C:/Windows/xlc"
+      - "C:/Windows/icx.com"
+      - "C:/Windows/icx.exe"
+      - "C:/Windows/icx"
+      - "C:/Windows/clang.com"
+      - "C:/Windows/clang.exe"
+      - "C:/Windows/clang"
+      - "C:/Windows/System32/wbem/cc.com"
+      - "C:/Windows/System32/wbem/cc.exe"
+      - "C:/Windows/System32/wbem/cc"
+      - "C:/Windows/System32/wbem/gcc.com"
+      - "C:/Windows/System32/wbem/gcc.exe"
+      - "C:/Windows/System32/wbem/gcc"
+      - "C:/Windows/System32/wbem/cl.com"
+      - "C:/Windows/System32/wbem/cl.exe"
+      - "C:/Windows/System32/wbem/cl"
+      - "C:/Windows/System32/wbem/bcc.com"
+      - "C:/Windows/System32/wbem/bcc.exe"
+      - "C:/Windows/System32/wbem/bcc"
+      - "C:/Windows/System32/wbem/xlc.com"
+      - "C:/Windows/System32/wbem/xlc.exe"
+      - "C:/Windows/System32/wbem/xlc"
+      - "C:/Windows/System32/wbem/icx.com"
+      - "C:/Windows/System32/wbem/icx.exe"
+      - "C:/Windows/System32/wbem/icx"
+      - "C:/Windows/System32/wbem/clang.com"
+      - "C:/Windows/System32/wbem/clang.exe"
+      - "C:/Windows/System32/wbem/clang"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/cc.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/cc.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/cc"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/cl.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/cl.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/cl"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/bcc.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/bcc.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/bcc"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/xlc.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/xlc.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/xlc"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/icx.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/icx.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/icx"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/clang.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/clang.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/clang"
+      - "C:/Windows/System32/OpenSSH/cc.com"
+      - "C:/Windows/System32/OpenSSH/cc.exe"
+      - "C:/Windows/System32/OpenSSH/cc"
+      - "C:/Windows/System32/OpenSSH/gcc.com"
+      - "C:/Windows/System32/OpenSSH/gcc.exe"
+      - "C:/Windows/System32/OpenSSH/gcc"
+      - "C:/Windows/System32/OpenSSH/cl.com"
+      - "C:/Windows/System32/OpenSSH/cl.exe"
+      - "C:/Windows/System32/OpenSSH/cl"
+      - "C:/Windows/System32/OpenSSH/bcc.com"
+      - "C:/Windows/System32/OpenSSH/bcc.exe"
+      - "C:/Windows/System32/OpenSSH/bcc"
+      - "C:/Windows/System32/OpenSSH/xlc.com"
+      - "C:/Windows/System32/OpenSSH/xlc.exe"
+      - "C:/Windows/System32/OpenSSH/xlc"
+      - "C:/Windows/System32/OpenSSH/icx.com"
+      - "C:/Windows/System32/OpenSSH/icx.exe"
+      - "C:/Windows/System32/OpenSSH/icx"
+      - "C:/Windows/System32/OpenSSH/clang.com"
+      - "C:/Windows/System32/OpenSSH/clang.exe"
+      - "C:/Windows/System32/OpenSSH/clang"
+      - "C:/Program Files/Git/cmd/cc.com"
+      - "C:/Program Files/Git/cmd/cc.exe"
+      - "C:/Program Files/Git/cmd/cc"
+      - "C:/Program Files/Git/cmd/gcc.com"
+      - "C:/Program Files/Git/cmd/gcc.exe"
+      - "C:/Program Files/Git/cmd/gcc"
+      - "C:/Program Files/Git/cmd/cl.com"
+      - "C:/Program Files/Git/cmd/cl.exe"
+      - "C:/Program Files/Git/cmd/cl"
+      - "C:/Program Files/Git/cmd/bcc.com"
+      - "C:/Program Files/Git/cmd/bcc.exe"
+      - "C:/Program Files/Git/cmd/bcc"
+      - "C:/Program Files/Git/cmd/xlc.com"
+      - "C:/Program Files/Git/cmd/xlc.exe"
+      - "C:/Program Files/Git/cmd/xlc"
+      - "C:/Program Files/Git/cmd/icx.com"
+      - "C:/Program Files/Git/cmd/icx.exe"
+      - "C:/Program Files/Git/cmd/icx"
+      - "C:/Program Files/Git/cmd/clang.com"
+      - "C:/Program Files/Git/cmd/clang.exe"
+      - "C:/Program Files/Git/cmd/clang"
+      - "C:/Users/nikav/scoop/apps/python313/current/Scripts/cc.com"
+      - "C:/Users/nikav/scoop/apps/python313/current/Scripts/cc.exe"
+      - "C:/Users/nikav/scoop/apps/python313/current/Scripts/cc"
+      - "C:/Users/nikav/scoop/apps/python313/current/Scripts/gcc.com"
+      - "C:/Users/nikav/scoop/apps/python313/current/Scripts/gcc.exe"
+      - "C:/Users/nikav/scoop/apps/python313/current/Scripts/gcc"
+      - "C:/Users/nikav/scoop/apps/python313/current/Scripts/cl.com"
+      - "C:/Users/nikav/scoop/apps/python313/current/Scripts/cl.exe"
+      - "C:/Users/nikav/scoop/apps/python313/current/Scripts/cl"
+      - "C:/Users/nikav/scoop/apps/python313/current/Scripts/bcc.com"
+      - "C:/Users/nikav/scoop/apps/python313/current/Scripts/bcc.exe"
+      - "C:/Users/nikav/scoop/apps/python313/current/Scripts/bcc"
+      - "C:/Users/nikav/scoop/apps/python313/current/Scripts/xlc.com"
+      - "C:/Users/nikav/scoop/apps/python313/current/Scripts/xlc.exe"
+      - "C:/Users/nikav/scoop/apps/python313/current/Scripts/xlc"
+      - "C:/Users/nikav/scoop/apps/python313/current/Scripts/icx.com"
+      - "C:/Users/nikav/scoop/apps/python313/current/Scripts/icx.exe"
+      - "C:/Users/nikav/scoop/apps/python313/current/Scripts/icx"
+      - "C:/Users/nikav/scoop/apps/python313/current/Scripts/clang.com"
+      - "C:/Users/nikav/scoop/apps/python313/current/Scripts/clang.exe"
+      - "C:/Users/nikav/scoop/apps/python313/current/Scripts/clang"
+      - "C:/Users/nikav/scoop/apps/python313/current/cc.com"
+      - "C:/Users/nikav/scoop/apps/python313/current/cc.exe"
+      - "C:/Users/nikav/scoop/apps/python313/current/cc"
+      - "C:/Users/nikav/scoop/apps/python313/current/gcc.com"
+      - "C:/Users/nikav/scoop/apps/python313/current/gcc.exe"
+      - "C:/Users/nikav/scoop/apps/python313/current/gcc"
+      - "C:/Users/nikav/scoop/apps/python313/current/cl.com"
+      - "C:/Users/nikav/scoop/apps/python313/current/cl.exe"
+      - "C:/Users/nikav/scoop/apps/python313/current/cl"
+      - "C:/Users/nikav/scoop/apps/python313/current/bcc.com"
+      - "C:/Users/nikav/scoop/apps/python313/current/bcc.exe"
+      - "C:/Users/nikav/scoop/apps/python313/current/bcc"
+      - "C:/Users/nikav/scoop/apps/python313/current/xlc.com"
+      - "C:/Users/nikav/scoop/apps/python313/current/xlc.exe"
+      - "C:/Users/nikav/scoop/apps/python313/current/xlc"
+      - "C:/Users/nikav/scoop/apps/python313/current/icx.com"
+      - "C:/Users/nikav/scoop/apps/python313/current/icx.exe"
+      - "C:/Users/nikav/scoop/apps/python313/current/icx"
+      - "C:/Users/nikav/scoop/apps/python313/current/clang.com"
+      - "C:/Users/nikav/scoop/apps/python313/current/clang.exe"
+      - "C:/Users/nikav/scoop/apps/python313/current/clang"
+      - "C:/Users/nikav/scoop/apps/git/current/bin/cc.com"
+      - "C:/Users/nikav/scoop/apps/git/current/bin/cc.exe"
+      - "C:/Users/nikav/scoop/apps/git/current/bin/cc"
+      - "C:/Users/nikav/scoop/apps/git/current/bin/gcc.com"
+      - "C:/Users/nikav/scoop/apps/git/current/bin/gcc.exe"
+      - "C:/Users/nikav/scoop/apps/git/current/bin/gcc"
+      - "C:/Users/nikav/scoop/apps/git/current/bin/cl.com"
+      - "C:/Users/nikav/scoop/apps/git/current/bin/cl.exe"
+      - "C:/Users/nikav/scoop/apps/git/current/bin/cl"
+      - "C:/Users/nikav/scoop/apps/git/current/bin/bcc.com"
+      - "C:/Users/nikav/scoop/apps/git/current/bin/bcc.exe"
+      - "C:/Users/nikav/scoop/apps/git/current/bin/bcc"
+      - "C:/Users/nikav/scoop/apps/git/current/bin/xlc.com"
+      - "C:/Users/nikav/scoop/apps/git/current/bin/xlc.exe"
+      - "C:/Users/nikav/scoop/apps/git/current/bin/xlc"
+      - "C:/Users/nikav/scoop/apps/git/current/bin/icx.com"
+      - "C:/Users/nikav/scoop/apps/git/current/bin/icx.exe"
+      - "C:/Users/nikav/scoop/apps/git/current/bin/icx"
+      - "C:/Users/nikav/scoop/apps/git/current/bin/clang.com"
+      - "C:/Users/nikav/scoop/apps/git/current/bin/clang.exe"
+      - "C:/Users/nikav/scoop/apps/git/current/bin/clang"
+      - "C:/Users/nikav/scoop/shims/cc.com"
+      - "C:/Users/nikav/scoop/shims/cc.exe"
+      - "C:/Users/nikav/scoop/shims/cc"
+      - "C:/Users/nikav/scoop/shims/gcc.com"
+      - "C:/Users/nikav/scoop/shims/gcc.exe"
+      - "C:/Users/nikav/scoop/shims/gcc"
+      - "C:/Users/nikav/scoop/shims/cl.com"
+      - "C:/Users/nikav/scoop/shims/cl.exe"
+      - "C:/Users/nikav/scoop/shims/cl"
+      - "C:/Users/nikav/scoop/shims/bcc.com"
+      - "C:/Users/nikav/scoop/shims/bcc.exe"
+      - "C:/Users/nikav/scoop/shims/bcc"
+      - "C:/Users/nikav/scoop/shims/xlc.com"
+      - "C:/Users/nikav/scoop/shims/xlc.exe"
+      - "C:/Users/nikav/scoop/shims/xlc"
+      - "C:/Users/nikav/scoop/shims/icx.com"
+      - "C:/Users/nikav/scoop/shims/icx.exe"
+      - "C:/Users/nikav/scoop/shims/icx"
+      - "C:/Users/nikav/scoop/shims/clang.com"
+      - "C:/Users/nikav/scoop/shims/clang.exe"
+      - "C:/Users/nikav/scoop/shims/clang"
+      - "C:/Users/nikav/AppData/Local/Microsoft/WindowsApps/cc.com"
+      - "C:/Users/nikav/AppData/Local/Microsoft/WindowsApps/cc.exe"
+      - "C:/Users/nikav/AppData/Local/Microsoft/WindowsApps/cc"
+      - "C:/Users/nikav/AppData/Local/Microsoft/WindowsApps/gcc.com"
+      - "C:/Users/nikav/AppData/Local/Microsoft/WindowsApps/gcc.exe"
+      - "C:/Users/nikav/AppData/Local/Microsoft/WindowsApps/gcc"
+      - "C:/Users/nikav/AppData/Local/Microsoft/WindowsApps/cl.com"
+      - "C:/Users/nikav/AppData/Local/Microsoft/WindowsApps/cl.exe"
+      - "C:/Users/nikav/AppData/Local/Microsoft/WindowsApps/cl"
+      - "C:/Users/nikav/AppData/Local/Microsoft/WindowsApps/bcc.com"
+      - "C:/Users/nikav/AppData/Local/Microsoft/WindowsApps/bcc.exe"
+      - "C:/Users/nikav/AppData/Local/Microsoft/WindowsApps/bcc"
+      - "C:/Users/nikav/AppData/Local/Microsoft/WindowsApps/xlc.com"
+      - "C:/Users/nikav/AppData/Local/Microsoft/WindowsApps/xlc.exe"
+      - "C:/Users/nikav/AppData/Local/Microsoft/WindowsApps/xlc"
+      - "C:/Users/nikav/AppData/Local/Microsoft/WindowsApps/icx.com"
+      - "C:/Users/nikav/AppData/Local/Microsoft/WindowsApps/icx.exe"
+      - "C:/Users/nikav/AppData/Local/Microsoft/WindowsApps/icx"
+      - "C:/Users/nikav/AppData/Local/Microsoft/WindowsApps/clang.com"
+      - "C:/Users/nikav/AppData/Local/Microsoft/WindowsApps/clang.exe"
+      - "C:/Users/nikav/AppData/Local/Microsoft/WindowsApps/clang"
+      - "C:/Users/nikav/AppData/Local/Programs/Microsoft VS Code/bin/cc.com"
+      - "C:/Users/nikav/AppData/Local/Programs/Microsoft VS Code/bin/cc.exe"
+      - "C:/Users/nikav/AppData/Local/Programs/Microsoft VS Code/bin/cc"
+      - "C:/Users/nikav/AppData/Local/Programs/Microsoft VS Code/bin/gcc.com"
+      - "C:/Users/nikav/AppData/Local/Programs/Microsoft VS Code/bin/gcc.exe"
+      - "C:/Users/nikav/AppData/Local/Programs/Microsoft VS Code/bin/gcc"
+      - "C:/Users/nikav/AppData/Local/Programs/Microsoft VS Code/bin/cl.com"
+      - "C:/Users/nikav/AppData/Local/Programs/Microsoft VS Code/bin/cl.exe"
+      - "C:/Users/nikav/AppData/Local/Programs/Microsoft VS Code/bin/cl"
+      - "C:/Users/nikav/AppData/Local/Programs/Microsoft VS Code/bin/bcc.com"
+      - "C:/Users/nikav/AppData/Local/Programs/Microsoft VS Code/bin/bcc.exe"
+      - "C:/Users/nikav/AppData/Local/Programs/Microsoft VS Code/bin/bcc"
+      - "C:/Users/nikav/AppData/Local/Programs/Microsoft VS Code/bin/xlc.com"
+      - "C:/Users/nikav/AppData/Local/Programs/Microsoft VS Code/bin/xlc.exe"
+      - "C:/Users/nikav/AppData/Local/Programs/Microsoft VS Code/bin/xlc"
+      - "C:/Users/nikav/AppData/Local/Programs/Microsoft VS Code/bin/icx.com"
+      - "C:/Users/nikav/AppData/Local/Programs/Microsoft VS Code/bin/icx.exe"
+      - "C:/Users/nikav/AppData/Local/Programs/Microsoft VS Code/bin/icx"
+      - "C:/Users/nikav/AppData/Local/Programs/Microsoft VS Code/bin/clang.com"
+      - "C:/Users/nikav/AppData/Local/Programs/Microsoft VS Code/bin/clang.exe"
+      - "C:/Users/nikav/AppData/Local/Programs/Microsoft VS Code/bin/clang"
+      - "C:/altera/13.1/modelsim_ase/win32aloem/cc.com"
+      - "C:/altera/13.1/modelsim_ase/win32aloem/cc.exe"
+      - "C:/altera/13.1/modelsim_ase/win32aloem/cc"
+      - "C:/altera/13.1/modelsim_ase/win32aloem/gcc.com"
+      - "C:/altera/13.1/modelsim_ase/win32aloem/gcc.exe"
+      - "C:/altera/13.1/modelsim_ase/win32aloem/gcc"
+      - "C:/altera/13.1/modelsim_ase/win32aloem/cl.com"
+      - "C:/altera/13.1/modelsim_ase/win32aloem/cl.exe"
+      - "C:/altera/13.1/modelsim_ase/win32aloem/cl"
+      - "C:/altera/13.1/modelsim_ase/win32aloem/bcc.com"
+      - "C:/altera/13.1/modelsim_ase/win32aloem/bcc.exe"
+      - "C:/altera/13.1/modelsim_ase/win32aloem/bcc"
+      - "C:/altera/13.1/modelsim_ase/win32aloem/xlc.com"
+      - "C:/altera/13.1/modelsim_ase/win32aloem/xlc.exe"
+      - "C:/altera/13.1/modelsim_ase/win32aloem/xlc"
+      - "C:/altera/13.1/modelsim_ase/win32aloem/icx.com"
+      - "C:/altera/13.1/modelsim_ase/win32aloem/icx.exe"
+      - "C:/altera/13.1/modelsim_ase/win32aloem/icx"
+      - "C:/altera/13.1/modelsim_ase/win32aloem/clang.com"
+      - "C:/altera/13.1/modelsim_ase/win32aloem/clang.exe"
+      - "C:/altera/13.1/modelsim_ase/win32aloem/clang"
+      - "C:/MinGW/bin/cc.com"
+      - "C:/MinGW/bin/cc.exe"
+      - "C:/MinGW/bin/cc"
+      - "C:/MinGW/bin/gcc.com"
+      - "C:/MinGW/bin/gcc.exe"
+      - "C:/MinGW/bin/gcc"
+      - "C:/MinGW/bin/cl.com"
+      - "C:/MinGW/bin/cl.exe"
+      - "C:/MinGW/bin/cl"
+      - "C:/MinGW/bin/bcc.com"
+      - "C:/MinGW/bin/bcc.exe"
+      - "C:/MinGW/bin/bcc"
+      - "C:/MinGW/bin/xlc.com"
+      - "C:/MinGW/bin/xlc.exe"
+      - "C:/MinGW/bin/xlc"
+      - "C:/MinGW/bin/icx.com"
+      - "C:/MinGW/bin/icx.exe"
+      - "C:/MinGW/bin/icx"
+      - "C:/MinGW/bin/clang.com"
+      - "C:/MinGW/bin/clang.exe"
+      - "C:/MinGW/bin/clang"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/bin/cc.com"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/bin/cc.exe"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/bin/cc"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/bin/gcc.com"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/bin/gcc.exe"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/bin/gcc"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/bin/cl.com"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/bin/cl.exe"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/bin/cl"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/bin/bcc.com"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/bin/bcc.exe"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/bin/bcc"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/bin/xlc.com"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/bin/xlc.exe"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/bin/xlc"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/bin/icx.com"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/bin/icx.exe"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/bin/icx"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/bin/clang.com"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/bin/clang.exe"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/bin/clang"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\nikav\\scoop\\apps\\python313\\current\\Scripts"
+        - "C:\\Users\\nikav\\scoop\\apps\\python313\\current"
+        - "C:\\Users\\nikav\\scoop\\apps\\git\\current\\bin"
+        - "C:\\Users\\nikav\\scoop\\shims"
+        - "C:\\Users\\nikav\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\nikav\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\altera\\13.1\\modelsim_ase\\win32aloem"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\cmake-4.3.2-windows-x86_64\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/"
+    found: "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\nikav\\scoop\\apps\\python313\\current\\Scripts"
+        - "C:\\Users\\nikav\\scoop\\apps\\python313\\current"
+        - "C:\\Users\\nikav\\scoop\\apps\\git\\current\\bin"
+        - "C:\\Users\\nikav\\scoop\\shims"
+        - "C:\\Users\\nikav\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\nikav\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\altera\\13.1\\modelsim_ase\\win32aloem"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\cmake-4.3.2-windows-x86_64\\bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: CMAKE_C_COMPILER-NOTFOUND 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/"
+    found: "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\nikav\\scoop\\apps\\python313\\current\\Scripts"
+        - "C:\\Users\\nikav\\scoop\\apps\\python313\\current"
+        - "C:\\Users\\nikav\\scoop\\apps\\git\\current\\bin"
+        - "C:\\Users\\nikav\\scoop\\shims"
+        - "C:\\Users\\nikav\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\nikav\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\altera\\13.1\\modelsim_ase\\win32aloem"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\cmake-4.3.2-windows-x86_64\\bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: CMAKE_C_COMPILER-NOTFOUND 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/"
+    found: "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\nikav\\scoop\\apps\\python313\\current\\Scripts"
+        - "C:\\Users\\nikav\\scoop\\apps\\python313\\current"
+        - "C:\\Users\\nikav\\scoop\\apps\\git\\current\\bin"
+        - "C:\\Users\\nikav\\scoop\\shims"
+        - "C:\\Users\\nikav\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\nikav\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\altera\\13.1\\modelsim_ase\\win32aloem"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\cmake-4.3.2-windows-x86_64\\bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: CMAKE_C_COMPILER-NOTFOUND 
+      Build flags: 
+      Id flags: -Aa 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/"
+    found: "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\nikav\\scoop\\apps\\python313\\current\\Scripts"
+        - "C:\\Users\\nikav\\scoop\\apps\\python313\\current"
+        - "C:\\Users\\nikav\\scoop\\apps\\git\\current\\bin"
+        - "C:\\Users\\nikav\\scoop\\shims"
+        - "C:\\Users\\nikav\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\nikav\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\altera\\13.1\\modelsim_ase\\win32aloem"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\cmake-4.3.2-windows-x86_64\\bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: CMAKE_C_COMPILER-NOTFOUND 
+      Build flags: 
+      Id flags: -D__CLASSIC_C__ 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/"
+    found: "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\nikav\\scoop\\apps\\python313\\current\\Scripts"
+        - "C:\\Users\\nikav\\scoop\\apps\\python313\\current"
+        - "C:\\Users\\nikav\\scoop\\apps\\git\\current\\bin"
+        - "C:\\Users\\nikav\\scoop\\shims"
+        - "C:\\Users\\nikav\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\nikav\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\altera\\13.1\\modelsim_ase\\win32aloem"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\cmake-4.3.2-windows-x86_64\\bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: CMAKE_C_COMPILER-NOTFOUND 
+      Build flags: 
+      Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/"
+    found: "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\nikav\\scoop\\apps\\python313\\current\\Scripts"
+        - "C:\\Users\\nikav\\scoop\\apps\\python313\\current"
+        - "C:\\Users\\nikav\\scoop\\apps\\git\\current\\bin"
+        - "C:\\Users\\nikav\\scoop\\shims"
+        - "C:\\Users\\nikav\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\nikav\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\altera\\13.1\\modelsim_ase\\win32aloem"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\cmake-4.3.2-windows-x86_64\\bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: CMAKE_C_COMPILER-NOTFOUND 
+      Build flags: 
+      Id flags: -c;-I__does_not_exist__ 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/"
+    found: "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\nikav\\scoop\\apps\\python313\\current\\Scripts"
+        - "C:\\Users\\nikav\\scoop\\apps\\python313\\current"
+        - "C:\\Users\\nikav\\scoop\\apps\\git\\current\\bin"
+        - "C:\\Users\\nikav\\scoop\\shims"
+        - "C:\\Users\\nikav\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\nikav\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\altera\\13.1\\modelsim_ase\\win32aloem"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\cmake-4.3.2-windows-x86_64\\bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: CMAKE_C_COMPILER-NOTFOUND 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/"
+    found: "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\nikav\\scoop\\apps\\python313\\current\\Scripts"
+        - "C:\\Users\\nikav\\scoop\\apps\\python313\\current"
+        - "C:\\Users\\nikav\\scoop\\apps\\git\\current\\bin"
+        - "C:\\Users\\nikav\\scoop\\shims"
+        - "C:\\Users\\nikav\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\nikav\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\altera\\13.1\\modelsim_ase\\win32aloem"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\cmake-4.3.2-windows-x86_64\\bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: CMAKE_C_COMPILER-NOTFOUND 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/"
+    found: "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\nikav\\scoop\\apps\\python313\\current\\Scripts"
+        - "C:\\Users\\nikav\\scoop\\apps\\python313\\current"
+        - "C:\\Users\\nikav\\scoop\\apps\\git\\current\\bin"
+        - "C:\\Users\\nikav\\scoop\\shims"
+        - "C:\\Users\\nikav\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\nikav\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\altera\\13.1\\modelsim_ase\\win32aloem"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\cmake-4.3.2-windows-x86_64\\bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: CMAKE_C_COMPILER-NOTFOUND 
+      Build flags: 
+      Id flags: -Aa 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/"
+    found: "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\nikav\\scoop\\apps\\python313\\current\\Scripts"
+        - "C:\\Users\\nikav\\scoop\\apps\\python313\\current"
+        - "C:\\Users\\nikav\\scoop\\apps\\git\\current\\bin"
+        - "C:\\Users\\nikav\\scoop\\shims"
+        - "C:\\Users\\nikav\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\nikav\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\altera\\13.1\\modelsim_ase\\win32aloem"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\cmake-4.3.2-windows-x86_64\\bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: CMAKE_C_COMPILER-NOTFOUND 
+      Build flags: 
+      Id flags: -D__CLASSIC_C__ 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/"
+    found: "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\nikav\\scoop\\apps\\python313\\current\\Scripts"
+        - "C:\\Users\\nikav\\scoop\\apps\\python313\\current"
+        - "C:\\Users\\nikav\\scoop\\apps\\git\\current\\bin"
+        - "C:\\Users\\nikav\\scoop\\shims"
+        - "C:\\Users\\nikav\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\nikav\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\altera\\13.1\\modelsim_ase\\win32aloem"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\cmake-4.3.2-windows-x86_64\\bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: CMAKE_C_COMPILER-NOTFOUND 
+      Build flags: 
+      Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/"
+    found: "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\nikav\\scoop\\apps\\python313\\current\\Scripts"
+        - "C:\\Users\\nikav\\scoop\\apps\\python313\\current"
+        - "C:\\Users\\nikav\\scoop\\apps\\git\\current\\bin"
+        - "C:\\Users\\nikav\\scoop\\shims"
+        - "C:\\Users\\nikav\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\nikav\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\altera\\13.1\\modelsim_ase\\win32aloem"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\cmake-4.3.2-windows-x86_64\\bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: CMAKE_C_COMPILER-NOTFOUND 
+      Build flags: 
+      Id flags: -c;-I__does_not_exist__ 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ar"
+    candidate_directories:
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/nikav/scoop/apps/python313/current/Scripts/"
+      - "C:/Users/nikav/scoop/apps/python313/current/"
+      - "C:/Users/nikav/scoop/apps/git/current/bin/"
+      - "C:/Users/nikav/scoop/shims/"
+      - "C:/Users/nikav/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/nikav/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/altera/13.1/modelsim_ase/win32aloem/"
+      - "C:/MinGW/bin/"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/bin/"
+    searched_directories:
+      - "C:/Windows/System32/ar.com"
+      - "C:/Windows/System32/ar.exe"
+      - "C:/Windows/System32/ar"
+      - "C:/Windows/ar.com"
+      - "C:/Windows/ar.exe"
+      - "C:/Windows/ar"
+      - "C:/Windows/System32/wbem/ar.com"
+      - "C:/Windows/System32/wbem/ar.exe"
+      - "C:/Windows/System32/wbem/ar"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/ar.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/ar.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/ar"
+      - "C:/Windows/System32/OpenSSH/ar.com"
+      - "C:/Windows/System32/OpenSSH/ar.exe"
+      - "C:/Windows/System32/OpenSSH/ar"
+      - "C:/Program Files/Git/cmd/ar.com"
+      - "C:/Program Files/Git/cmd/ar.exe"
+      - "C:/Program Files/Git/cmd/ar"
+      - "C:/Users/nikav/scoop/apps/python313/current/Scripts/ar.com"
+      - "C:/Users/nikav/scoop/apps/python313/current/Scripts/ar.exe"
+      - "C:/Users/nikav/scoop/apps/python313/current/Scripts/ar"
+      - "C:/Users/nikav/scoop/apps/python313/current/ar.com"
+      - "C:/Users/nikav/scoop/apps/python313/current/ar.exe"
+      - "C:/Users/nikav/scoop/apps/python313/current/ar"
+      - "C:/Users/nikav/scoop/apps/git/current/bin/ar.com"
+      - "C:/Users/nikav/scoop/apps/git/current/bin/ar.exe"
+      - "C:/Users/nikav/scoop/apps/git/current/bin/ar"
+      - "C:/Users/nikav/scoop/shims/ar.com"
+      - "C:/Users/nikav/scoop/shims/ar.exe"
+      - "C:/Users/nikav/scoop/shims/ar"
+      - "C:/Users/nikav/AppData/Local/Microsoft/WindowsApps/ar.com"
+      - "C:/Users/nikav/AppData/Local/Microsoft/WindowsApps/ar.exe"
+      - "C:/Users/nikav/AppData/Local/Microsoft/WindowsApps/ar"
+      - "C:/Users/nikav/AppData/Local/Programs/Microsoft VS Code/bin/ar.com"
+      - "C:/Users/nikav/AppData/Local/Programs/Microsoft VS Code/bin/ar.exe"
+      - "C:/Users/nikav/AppData/Local/Programs/Microsoft VS Code/bin/ar"
+      - "C:/altera/13.1/modelsim_ase/win32aloem/ar.com"
+      - "C:/altera/13.1/modelsim_ase/win32aloem/ar.exe"
+      - "C:/altera/13.1/modelsim_ase/win32aloem/ar"
+      - "C:/MinGW/bin/ar.com"
+      - "C:/MinGW/bin/ar.exe"
+      - "C:/MinGW/bin/ar"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/bin/ar.com"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/bin/ar.exe"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/bin/ar"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\nikav\\scoop\\apps\\python313\\current\\Scripts"
+        - "C:\\Users\\nikav\\scoop\\apps\\python313\\current"
+        - "C:\\Users\\nikav\\scoop\\apps\\git\\current\\bin"
+        - "C:\\Users\\nikav\\scoop\\shims"
+        - "C:\\Users\\nikav\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\nikav\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\altera\\13.1\\modelsim_ase\\win32aloem"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\cmake-4.3.2-windows-x86_64\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_RANLIB"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ranlib"
+    candidate_directories:
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/nikav/scoop/apps/python313/current/Scripts/"
+      - "C:/Users/nikav/scoop/apps/python313/current/"
+      - "C:/Users/nikav/scoop/apps/git/current/bin/"
+      - "C:/Users/nikav/scoop/shims/"
+      - "C:/Users/nikav/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/nikav/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/altera/13.1/modelsim_ase/win32aloem/"
+      - "C:/MinGW/bin/"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/bin/"
+    searched_directories:
+      - "C:/Windows/System32/ranlib.com"
+      - "C:/Windows/System32/ranlib.exe"
+      - "C:/Windows/System32/ranlib"
+      - "C:/Windows/ranlib.com"
+      - "C:/Windows/ranlib.exe"
+      - "C:/Windows/ranlib"
+      - "C:/Windows/System32/wbem/ranlib.com"
+      - "C:/Windows/System32/wbem/ranlib.exe"
+      - "C:/Windows/System32/wbem/ranlib"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/ranlib.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/ranlib.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/ranlib"
+      - "C:/Windows/System32/OpenSSH/ranlib.com"
+      - "C:/Windows/System32/OpenSSH/ranlib.exe"
+      - "C:/Windows/System32/OpenSSH/ranlib"
+      - "C:/Program Files/Git/cmd/ranlib.com"
+      - "C:/Program Files/Git/cmd/ranlib.exe"
+      - "C:/Program Files/Git/cmd/ranlib"
+      - "C:/Users/nikav/scoop/apps/python313/current/Scripts/ranlib.com"
+      - "C:/Users/nikav/scoop/apps/python313/current/Scripts/ranlib.exe"
+      - "C:/Users/nikav/scoop/apps/python313/current/Scripts/ranlib"
+      - "C:/Users/nikav/scoop/apps/python313/current/ranlib.com"
+      - "C:/Users/nikav/scoop/apps/python313/current/ranlib.exe"
+      - "C:/Users/nikav/scoop/apps/python313/current/ranlib"
+      - "C:/Users/nikav/scoop/apps/git/current/bin/ranlib.com"
+      - "C:/Users/nikav/scoop/apps/git/current/bin/ranlib.exe"
+      - "C:/Users/nikav/scoop/apps/git/current/bin/ranlib"
+      - "C:/Users/nikav/scoop/shims/ranlib.com"
+      - "C:/Users/nikav/scoop/shims/ranlib.exe"
+      - "C:/Users/nikav/scoop/shims/ranlib"
+      - "C:/Users/nikav/AppData/Local/Microsoft/WindowsApps/ranlib.com"
+      - "C:/Users/nikav/AppData/Local/Microsoft/WindowsApps/ranlib.exe"
+      - "C:/Users/nikav/AppData/Local/Microsoft/WindowsApps/ranlib"
+      - "C:/Users/nikav/AppData/Local/Programs/Microsoft VS Code/bin/ranlib.com"
+      - "C:/Users/nikav/AppData/Local/Programs/Microsoft VS Code/bin/ranlib.exe"
+      - "C:/Users/nikav/AppData/Local/Programs/Microsoft VS Code/bin/ranlib"
+      - "C:/altera/13.1/modelsim_ase/win32aloem/ranlib.com"
+      - "C:/altera/13.1/modelsim_ase/win32aloem/ranlib.exe"
+      - "C:/altera/13.1/modelsim_ase/win32aloem/ranlib"
+      - "C:/MinGW/bin/ranlib.com"
+      - "C:/MinGW/bin/ranlib.exe"
+      - "C:/MinGW/bin/ranlib"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/bin/ranlib.com"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/bin/ranlib.exe"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/bin/ranlib"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\nikav\\scoop\\apps\\python313\\current\\Scripts"
+        - "C:\\Users\\nikav\\scoop\\apps\\python313\\current"
+        - "C:\\Users\\nikav\\scoop\\apps\\git\\current\\bin"
+        - "C:\\Users\\nikav\\scoop\\shims"
+        - "C:\\Users\\nikav\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\nikav\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\altera\\13.1\\modelsim_ase\\win32aloem"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\cmake-4.3.2-windows-x86_64\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_STRIP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "strip"
+    candidate_directories:
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/nikav/scoop/apps/python313/current/Scripts/"
+      - "C:/Users/nikav/scoop/apps/python313/current/"
+      - "C:/Users/nikav/scoop/apps/git/current/bin/"
+      - "C:/Users/nikav/scoop/shims/"
+      - "C:/Users/nikav/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/nikav/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/altera/13.1/modelsim_ase/win32aloem/"
+      - "C:/MinGW/bin/"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/bin/"
+    searched_directories:
+      - "C:/Windows/System32/strip.com"
+      - "C:/Windows/System32/strip.exe"
+      - "C:/Windows/System32/strip"
+      - "C:/Windows/strip.com"
+      - "C:/Windows/strip.exe"
+      - "C:/Windows/strip"
+      - "C:/Windows/System32/wbem/strip.com"
+      - "C:/Windows/System32/wbem/strip.exe"
+      - "C:/Windows/System32/wbem/strip"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/strip.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/strip.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/strip"
+      - "C:/Windows/System32/OpenSSH/strip.com"
+      - "C:/Windows/System32/OpenSSH/strip.exe"
+      - "C:/Windows/System32/OpenSSH/strip"
+      - "C:/Program Files/Git/cmd/strip.com"
+      - "C:/Program Files/Git/cmd/strip.exe"
+      - "C:/Program Files/Git/cmd/strip"
+      - "C:/Users/nikav/scoop/apps/python313/current/Scripts/strip.com"
+      - "C:/Users/nikav/scoop/apps/python313/current/Scripts/strip.exe"
+      - "C:/Users/nikav/scoop/apps/python313/current/Scripts/strip"
+      - "C:/Users/nikav/scoop/apps/python313/current/strip.com"
+      - "C:/Users/nikav/scoop/apps/python313/current/strip.exe"
+      - "C:/Users/nikav/scoop/apps/python313/current/strip"
+      - "C:/Users/nikav/scoop/apps/git/current/bin/strip.com"
+      - "C:/Users/nikav/scoop/apps/git/current/bin/strip.exe"
+      - "C:/Users/nikav/scoop/apps/git/current/bin/strip"
+      - "C:/Users/nikav/scoop/shims/strip.com"
+      - "C:/Users/nikav/scoop/shims/strip.exe"
+      - "C:/Users/nikav/scoop/shims/strip"
+      - "C:/Users/nikav/AppData/Local/Microsoft/WindowsApps/strip.com"
+      - "C:/Users/nikav/AppData/Local/Microsoft/WindowsApps/strip.exe"
+      - "C:/Users/nikav/AppData/Local/Microsoft/WindowsApps/strip"
+      - "C:/Users/nikav/AppData/Local/Programs/Microsoft VS Code/bin/strip.com"
+      - "C:/Users/nikav/AppData/Local/Programs/Microsoft VS Code/bin/strip.exe"
+      - "C:/Users/nikav/AppData/Local/Programs/Microsoft VS Code/bin/strip"
+      - "C:/altera/13.1/modelsim_ase/win32aloem/strip.com"
+      - "C:/altera/13.1/modelsim_ase/win32aloem/strip.exe"
+      - "C:/altera/13.1/modelsim_ase/win32aloem/strip"
+      - "C:/MinGW/bin/strip.com"
+      - "C:/MinGW/bin/strip.exe"
+      - "C:/MinGW/bin/strip"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/bin/strip.com"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/bin/strip.exe"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/bin/strip"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\nikav\\scoop\\apps\\python313\\current\\Scripts"
+        - "C:\\Users\\nikav\\scoop\\apps\\python313\\current"
+        - "C:\\Users\\nikav\\scoop\\apps\\git\\current\\bin"
+        - "C:\\Users\\nikav\\scoop\\shims"
+        - "C:\\Users\\nikav\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\nikav\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\altera\\13.1\\modelsim_ase\\win32aloem"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\cmake-4.3.2-windows-x86_64\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ld"
+    candidate_directories:
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/nikav/scoop/apps/python313/current/Scripts/"
+      - "C:/Users/nikav/scoop/apps/python313/current/"
+      - "C:/Users/nikav/scoop/apps/git/current/bin/"
+      - "C:/Users/nikav/scoop/shims/"
+      - "C:/Users/nikav/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/nikav/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/altera/13.1/modelsim_ase/win32aloem/"
+      - "C:/MinGW/bin/"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/bin/"
+    searched_directories:
+      - "C:/Windows/System32/ld.com"
+      - "C:/Windows/System32/ld.exe"
+      - "C:/Windows/System32/ld"
+      - "C:/Windows/ld.com"
+      - "C:/Windows/ld.exe"
+      - "C:/Windows/ld"
+      - "C:/Windows/System32/wbem/ld.com"
+      - "C:/Windows/System32/wbem/ld.exe"
+      - "C:/Windows/System32/wbem/ld"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/ld.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/ld.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/ld"
+      - "C:/Windows/System32/OpenSSH/ld.com"
+      - "C:/Windows/System32/OpenSSH/ld.exe"
+      - "C:/Windows/System32/OpenSSH/ld"
+      - "C:/Program Files/Git/cmd/ld.com"
+      - "C:/Program Files/Git/cmd/ld.exe"
+      - "C:/Program Files/Git/cmd/ld"
+      - "C:/Users/nikav/scoop/apps/python313/current/Scripts/ld.com"
+      - "C:/Users/nikav/scoop/apps/python313/current/Scripts/ld.exe"
+      - "C:/Users/nikav/scoop/apps/python313/current/Scripts/ld"
+      - "C:/Users/nikav/scoop/apps/python313/current/ld.com"
+      - "C:/Users/nikav/scoop/apps/python313/current/ld.exe"
+      - "C:/Users/nikav/scoop/apps/python313/current/ld"
+      - "C:/Users/nikav/scoop/apps/git/current/bin/ld.com"
+      - "C:/Users/nikav/scoop/apps/git/current/bin/ld.exe"
+      - "C:/Users/nikav/scoop/apps/git/current/bin/ld"
+      - "C:/Users/nikav/scoop/shims/ld.com"
+      - "C:/Users/nikav/scoop/shims/ld.exe"
+      - "C:/Users/nikav/scoop/shims/ld"
+      - "C:/Users/nikav/AppData/Local/Microsoft/WindowsApps/ld.com"
+      - "C:/Users/nikav/AppData/Local/Microsoft/WindowsApps/ld.exe"
+      - "C:/Users/nikav/AppData/Local/Microsoft/WindowsApps/ld"
+      - "C:/Users/nikav/AppData/Local/Programs/Microsoft VS Code/bin/ld.com"
+      - "C:/Users/nikav/AppData/Local/Programs/Microsoft VS Code/bin/ld.exe"
+      - "C:/Users/nikav/AppData/Local/Programs/Microsoft VS Code/bin/ld"
+      - "C:/altera/13.1/modelsim_ase/win32aloem/ld.com"
+      - "C:/altera/13.1/modelsim_ase/win32aloem/ld.exe"
+      - "C:/altera/13.1/modelsim_ase/win32aloem/ld"
+      - "C:/MinGW/bin/ld.com"
+      - "C:/MinGW/bin/ld.exe"
+      - "C:/MinGW/bin/ld"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/bin/ld.com"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/bin/ld.exe"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/bin/ld"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\nikav\\scoop\\apps\\python313\\current\\Scripts"
+        - "C:\\Users\\nikav\\scoop\\apps\\python313\\current"
+        - "C:\\Users\\nikav\\scoop\\apps\\git\\current\\bin"
+        - "C:\\Users\\nikav\\scoop\\shims"
+        - "C:\\Users\\nikav\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\nikav\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\altera\\13.1\\modelsim_ase\\win32aloem"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\cmake-4.3.2-windows-x86_64\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_NM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "nm"
+    candidate_directories:
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/nikav/scoop/apps/python313/current/Scripts/"
+      - "C:/Users/nikav/scoop/apps/python313/current/"
+      - "C:/Users/nikav/scoop/apps/git/current/bin/"
+      - "C:/Users/nikav/scoop/shims/"
+      - "C:/Users/nikav/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/nikav/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/altera/13.1/modelsim_ase/win32aloem/"
+      - "C:/MinGW/bin/"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/bin/"
+    searched_directories:
+      - "C:/Windows/System32/nm.com"
+      - "C:/Windows/System32/nm.exe"
+      - "C:/Windows/System32/nm"
+      - "C:/Windows/nm.com"
+      - "C:/Windows/nm.exe"
+      - "C:/Windows/nm"
+      - "C:/Windows/System32/wbem/nm.com"
+      - "C:/Windows/System32/wbem/nm.exe"
+      - "C:/Windows/System32/wbem/nm"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/nm.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/nm.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/nm"
+      - "C:/Windows/System32/OpenSSH/nm.com"
+      - "C:/Windows/System32/OpenSSH/nm.exe"
+      - "C:/Windows/System32/OpenSSH/nm"
+      - "C:/Program Files/Git/cmd/nm.com"
+      - "C:/Program Files/Git/cmd/nm.exe"
+      - "C:/Program Files/Git/cmd/nm"
+      - "C:/Users/nikav/scoop/apps/python313/current/Scripts/nm.com"
+      - "C:/Users/nikav/scoop/apps/python313/current/Scripts/nm.exe"
+      - "C:/Users/nikav/scoop/apps/python313/current/Scripts/nm"
+      - "C:/Users/nikav/scoop/apps/python313/current/nm.com"
+      - "C:/Users/nikav/scoop/apps/python313/current/nm.exe"
+      - "C:/Users/nikav/scoop/apps/python313/current/nm"
+      - "C:/Users/nikav/scoop/apps/git/current/bin/nm.com"
+      - "C:/Users/nikav/scoop/apps/git/current/bin/nm.exe"
+      - "C:/Users/nikav/scoop/apps/git/current/bin/nm"
+      - "C:/Users/nikav/scoop/shims/nm.com"
+      - "C:/Users/nikav/scoop/shims/nm.exe"
+      - "C:/Users/nikav/scoop/shims/nm"
+      - "C:/Users/nikav/AppData/Local/Microsoft/WindowsApps/nm.com"
+      - "C:/Users/nikav/AppData/Local/Microsoft/WindowsApps/nm.exe"
+      - "C:/Users/nikav/AppData/Local/Microsoft/WindowsApps/nm"
+      - "C:/Users/nikav/AppData/Local/Programs/Microsoft VS Code/bin/nm.com"
+      - "C:/Users/nikav/AppData/Local/Programs/Microsoft VS Code/bin/nm.exe"
+      - "C:/Users/nikav/AppData/Local/Programs/Microsoft VS Code/bin/nm"
+      - "C:/altera/13.1/modelsim_ase/win32aloem/nm.com"
+      - "C:/altera/13.1/modelsim_ase/win32aloem/nm.exe"
+      - "C:/altera/13.1/modelsim_ase/win32aloem/nm"
+      - "C:/MinGW/bin/nm.com"
+      - "C:/MinGW/bin/nm.exe"
+      - "C:/MinGW/bin/nm"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/bin/nm.com"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/bin/nm.exe"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/bin/nm"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\nikav\\scoop\\apps\\python313\\current\\Scripts"
+        - "C:\\Users\\nikav\\scoop\\apps\\python313\\current"
+        - "C:\\Users\\nikav\\scoop\\apps\\git\\current\\bin"
+        - "C:\\Users\\nikav\\scoop\\shims"
+        - "C:\\Users\\nikav\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\nikav\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\altera\\13.1\\modelsim_ase\\win32aloem"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\cmake-4.3.2-windows-x86_64\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJDUMP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objdump"
+    candidate_directories:
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/nikav/scoop/apps/python313/current/Scripts/"
+      - "C:/Users/nikav/scoop/apps/python313/current/"
+      - "C:/Users/nikav/scoop/apps/git/current/bin/"
+      - "C:/Users/nikav/scoop/shims/"
+      - "C:/Users/nikav/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/nikav/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/altera/13.1/modelsim_ase/win32aloem/"
+      - "C:/MinGW/bin/"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/bin/"
+    searched_directories:
+      - "C:/Windows/System32/objdump.com"
+      - "C:/Windows/System32/objdump.exe"
+      - "C:/Windows/System32/objdump"
+      - "C:/Windows/objdump.com"
+      - "C:/Windows/objdump.exe"
+      - "C:/Windows/objdump"
+      - "C:/Windows/System32/wbem/objdump.com"
+      - "C:/Windows/System32/wbem/objdump.exe"
+      - "C:/Windows/System32/wbem/objdump"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/objdump.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/objdump.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/objdump"
+      - "C:/Windows/System32/OpenSSH/objdump.com"
+      - "C:/Windows/System32/OpenSSH/objdump.exe"
+      - "C:/Windows/System32/OpenSSH/objdump"
+      - "C:/Program Files/Git/cmd/objdump.com"
+      - "C:/Program Files/Git/cmd/objdump.exe"
+      - "C:/Program Files/Git/cmd/objdump"
+      - "C:/Users/nikav/scoop/apps/python313/current/Scripts/objdump.com"
+      - "C:/Users/nikav/scoop/apps/python313/current/Scripts/objdump.exe"
+      - "C:/Users/nikav/scoop/apps/python313/current/Scripts/objdump"
+      - "C:/Users/nikav/scoop/apps/python313/current/objdump.com"
+      - "C:/Users/nikav/scoop/apps/python313/current/objdump.exe"
+      - "C:/Users/nikav/scoop/apps/python313/current/objdump"
+      - "C:/Users/nikav/scoop/apps/git/current/bin/objdump.com"
+      - "C:/Users/nikav/scoop/apps/git/current/bin/objdump.exe"
+      - "C:/Users/nikav/scoop/apps/git/current/bin/objdump"
+      - "C:/Users/nikav/scoop/shims/objdump.com"
+      - "C:/Users/nikav/scoop/shims/objdump.exe"
+      - "C:/Users/nikav/scoop/shims/objdump"
+      - "C:/Users/nikav/AppData/Local/Microsoft/WindowsApps/objdump.com"
+      - "C:/Users/nikav/AppData/Local/Microsoft/WindowsApps/objdump.exe"
+      - "C:/Users/nikav/AppData/Local/Microsoft/WindowsApps/objdump"
+      - "C:/Users/nikav/AppData/Local/Programs/Microsoft VS Code/bin/objdump.com"
+      - "C:/Users/nikav/AppData/Local/Programs/Microsoft VS Code/bin/objdump.exe"
+      - "C:/Users/nikav/AppData/Local/Programs/Microsoft VS Code/bin/objdump"
+      - "C:/altera/13.1/modelsim_ase/win32aloem/objdump.com"
+      - "C:/altera/13.1/modelsim_ase/win32aloem/objdump.exe"
+      - "C:/altera/13.1/modelsim_ase/win32aloem/objdump"
+      - "C:/MinGW/bin/objdump.com"
+      - "C:/MinGW/bin/objdump.exe"
+      - "C:/MinGW/bin/objdump"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/bin/objdump.com"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/bin/objdump.exe"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/bin/objdump"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\nikav\\scoop\\apps\\python313\\current\\Scripts"
+        - "C:\\Users\\nikav\\scoop\\apps\\python313\\current"
+        - "C:\\Users\\nikav\\scoop\\apps\\git\\current\\bin"
+        - "C:\\Users\\nikav\\scoop\\shims"
+        - "C:\\Users\\nikav\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\nikav\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\altera\\13.1\\modelsim_ase\\win32aloem"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\cmake-4.3.2-windows-x86_64\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJCOPY"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objcopy"
+    candidate_directories:
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/nikav/scoop/apps/python313/current/Scripts/"
+      - "C:/Users/nikav/scoop/apps/python313/current/"
+      - "C:/Users/nikav/scoop/apps/git/current/bin/"
+      - "C:/Users/nikav/scoop/shims/"
+      - "C:/Users/nikav/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/nikav/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/altera/13.1/modelsim_ase/win32aloem/"
+      - "C:/MinGW/bin/"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/bin/"
+    searched_directories:
+      - "C:/Windows/System32/objcopy.com"
+      - "C:/Windows/System32/objcopy.exe"
+      - "C:/Windows/System32/objcopy"
+      - "C:/Windows/objcopy.com"
+      - "C:/Windows/objcopy.exe"
+      - "C:/Windows/objcopy"
+      - "C:/Windows/System32/wbem/objcopy.com"
+      - "C:/Windows/System32/wbem/objcopy.exe"
+      - "C:/Windows/System32/wbem/objcopy"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/objcopy.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/objcopy.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/objcopy"
+      - "C:/Windows/System32/OpenSSH/objcopy.com"
+      - "C:/Windows/System32/OpenSSH/objcopy.exe"
+      - "C:/Windows/System32/OpenSSH/objcopy"
+      - "C:/Program Files/Git/cmd/objcopy.com"
+      - "C:/Program Files/Git/cmd/objcopy.exe"
+      - "C:/Program Files/Git/cmd/objcopy"
+      - "C:/Users/nikav/scoop/apps/python313/current/Scripts/objcopy.com"
+      - "C:/Users/nikav/scoop/apps/python313/current/Scripts/objcopy.exe"
+      - "C:/Users/nikav/scoop/apps/python313/current/Scripts/objcopy"
+      - "C:/Users/nikav/scoop/apps/python313/current/objcopy.com"
+      - "C:/Users/nikav/scoop/apps/python313/current/objcopy.exe"
+      - "C:/Users/nikav/scoop/apps/python313/current/objcopy"
+      - "C:/Users/nikav/scoop/apps/git/current/bin/objcopy.com"
+      - "C:/Users/nikav/scoop/apps/git/current/bin/objcopy.exe"
+      - "C:/Users/nikav/scoop/apps/git/current/bin/objcopy"
+      - "C:/Users/nikav/scoop/shims/objcopy.com"
+      - "C:/Users/nikav/scoop/shims/objcopy.exe"
+      - "C:/Users/nikav/scoop/shims/objcopy"
+      - "C:/Users/nikav/AppData/Local/Microsoft/WindowsApps/objcopy.com"
+      - "C:/Users/nikav/AppData/Local/Microsoft/WindowsApps/objcopy.exe"
+      - "C:/Users/nikav/AppData/Local/Microsoft/WindowsApps/objcopy"
+      - "C:/Users/nikav/AppData/Local/Programs/Microsoft VS Code/bin/objcopy.com"
+      - "C:/Users/nikav/AppData/Local/Programs/Microsoft VS Code/bin/objcopy.exe"
+      - "C:/Users/nikav/AppData/Local/Programs/Microsoft VS Code/bin/objcopy"
+      - "C:/altera/13.1/modelsim_ase/win32aloem/objcopy.com"
+      - "C:/altera/13.1/modelsim_ase/win32aloem/objcopy.exe"
+      - "C:/altera/13.1/modelsim_ase/win32aloem/objcopy"
+      - "C:/MinGW/bin/objcopy.com"
+      - "C:/MinGW/bin/objcopy.exe"
+      - "C:/MinGW/bin/objcopy"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/bin/objcopy.com"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/bin/objcopy.exe"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/bin/objcopy"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\nikav\\scoop\\apps\\python313\\current\\Scripts"
+        - "C:\\Users\\nikav\\scoop\\apps\\python313\\current"
+        - "C:\\Users\\nikav\\scoop\\apps\\git\\current\\bin"
+        - "C:\\Users\\nikav\\scoop\\shims"
+        - "C:\\Users\\nikav\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\nikav\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\altera\\13.1\\modelsim_ase\\win32aloem"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\cmake-4.3.2-windows-x86_64\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_READELF"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "readelf"
+    candidate_directories:
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/nikav/scoop/apps/python313/current/Scripts/"
+      - "C:/Users/nikav/scoop/apps/python313/current/"
+      - "C:/Users/nikav/scoop/apps/git/current/bin/"
+      - "C:/Users/nikav/scoop/shims/"
+      - "C:/Users/nikav/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/nikav/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/altera/13.1/modelsim_ase/win32aloem/"
+      - "C:/MinGW/bin/"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/bin/"
+    searched_directories:
+      - "C:/Windows/System32/readelf.com"
+      - "C:/Windows/System32/readelf.exe"
+      - "C:/Windows/System32/readelf"
+      - "C:/Windows/readelf.com"
+      - "C:/Windows/readelf.exe"
+      - "C:/Windows/readelf"
+      - "C:/Windows/System32/wbem/readelf.com"
+      - "C:/Windows/System32/wbem/readelf.exe"
+      - "C:/Windows/System32/wbem/readelf"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/readelf.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/readelf.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/readelf"
+      - "C:/Windows/System32/OpenSSH/readelf.com"
+      - "C:/Windows/System32/OpenSSH/readelf.exe"
+      - "C:/Windows/System32/OpenSSH/readelf"
+      - "C:/Program Files/Git/cmd/readelf.com"
+      - "C:/Program Files/Git/cmd/readelf.exe"
+      - "C:/Program Files/Git/cmd/readelf"
+      - "C:/Users/nikav/scoop/apps/python313/current/Scripts/readelf.com"
+      - "C:/Users/nikav/scoop/apps/python313/current/Scripts/readelf.exe"
+      - "C:/Users/nikav/scoop/apps/python313/current/Scripts/readelf"
+      - "C:/Users/nikav/scoop/apps/python313/current/readelf.com"
+      - "C:/Users/nikav/scoop/apps/python313/current/readelf.exe"
+      - "C:/Users/nikav/scoop/apps/python313/current/readelf"
+      - "C:/Users/nikav/scoop/apps/git/current/bin/readelf.com"
+      - "C:/Users/nikav/scoop/apps/git/current/bin/readelf.exe"
+      - "C:/Users/nikav/scoop/apps/git/current/bin/readelf"
+      - "C:/Users/nikav/scoop/shims/readelf.com"
+      - "C:/Users/nikav/scoop/shims/readelf.exe"
+      - "C:/Users/nikav/scoop/shims/readelf"
+      - "C:/Users/nikav/AppData/Local/Microsoft/WindowsApps/readelf.com"
+      - "C:/Users/nikav/AppData/Local/Microsoft/WindowsApps/readelf.exe"
+      - "C:/Users/nikav/AppData/Local/Microsoft/WindowsApps/readelf"
+      - "C:/Users/nikav/AppData/Local/Programs/Microsoft VS Code/bin/readelf.com"
+      - "C:/Users/nikav/AppData/Local/Programs/Microsoft VS Code/bin/readelf.exe"
+      - "C:/Users/nikav/AppData/Local/Programs/Microsoft VS Code/bin/readelf"
+      - "C:/altera/13.1/modelsim_ase/win32aloem/readelf.com"
+      - "C:/altera/13.1/modelsim_ase/win32aloem/readelf.exe"
+      - "C:/altera/13.1/modelsim_ase/win32aloem/readelf"
+      - "C:/MinGW/bin/readelf.com"
+      - "C:/MinGW/bin/readelf.exe"
+      - "C:/MinGW/bin/readelf"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/bin/readelf.com"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/bin/readelf.exe"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/bin/readelf"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\nikav\\scoop\\apps\\python313\\current\\Scripts"
+        - "C:\\Users\\nikav\\scoop\\apps\\python313\\current"
+        - "C:\\Users\\nikav\\scoop\\apps\\git\\current\\bin"
+        - "C:\\Users\\nikav\\scoop\\shims"
+        - "C:\\Users\\nikav\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\nikav\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\altera\\13.1\\modelsim_ase\\win32aloem"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\cmake-4.3.2-windows-x86_64\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_DLLTOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "dlltool"
+    candidate_directories:
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/nikav/scoop/apps/python313/current/Scripts/"
+      - "C:/Users/nikav/scoop/apps/python313/current/"
+      - "C:/Users/nikav/scoop/apps/git/current/bin/"
+      - "C:/Users/nikav/scoop/shims/"
+      - "C:/Users/nikav/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/nikav/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/altera/13.1/modelsim_ase/win32aloem/"
+      - "C:/MinGW/bin/"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/bin/"
+    searched_directories:
+      - "C:/Windows/System32/dlltool.com"
+      - "C:/Windows/System32/dlltool.exe"
+      - "C:/Windows/System32/dlltool"
+      - "C:/Windows/dlltool.com"
+      - "C:/Windows/dlltool.exe"
+      - "C:/Windows/dlltool"
+      - "C:/Windows/System32/wbem/dlltool.com"
+      - "C:/Windows/System32/wbem/dlltool.exe"
+      - "C:/Windows/System32/wbem/dlltool"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/dlltool.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/dlltool.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/dlltool"
+      - "C:/Windows/System32/OpenSSH/dlltool.com"
+      - "C:/Windows/System32/OpenSSH/dlltool.exe"
+      - "C:/Windows/System32/OpenSSH/dlltool"
+      - "C:/Program Files/Git/cmd/dlltool.com"
+      - "C:/Program Files/Git/cmd/dlltool.exe"
+      - "C:/Program Files/Git/cmd/dlltool"
+      - "C:/Users/nikav/scoop/apps/python313/current/Scripts/dlltool.com"
+      - "C:/Users/nikav/scoop/apps/python313/current/Scripts/dlltool.exe"
+      - "C:/Users/nikav/scoop/apps/python313/current/Scripts/dlltool"
+      - "C:/Users/nikav/scoop/apps/python313/current/dlltool.com"
+      - "C:/Users/nikav/scoop/apps/python313/current/dlltool.exe"
+      - "C:/Users/nikav/scoop/apps/python313/current/dlltool"
+      - "C:/Users/nikav/scoop/apps/git/current/bin/dlltool.com"
+      - "C:/Users/nikav/scoop/apps/git/current/bin/dlltool.exe"
+      - "C:/Users/nikav/scoop/apps/git/current/bin/dlltool"
+      - "C:/Users/nikav/scoop/shims/dlltool.com"
+      - "C:/Users/nikav/scoop/shims/dlltool.exe"
+      - "C:/Users/nikav/scoop/shims/dlltool"
+      - "C:/Users/nikav/AppData/Local/Microsoft/WindowsApps/dlltool.com"
+      - "C:/Users/nikav/AppData/Local/Microsoft/WindowsApps/dlltool.exe"
+      - "C:/Users/nikav/AppData/Local/Microsoft/WindowsApps/dlltool"
+      - "C:/Users/nikav/AppData/Local/Programs/Microsoft VS Code/bin/dlltool.com"
+      - "C:/Users/nikav/AppData/Local/Programs/Microsoft VS Code/bin/dlltool.exe"
+      - "C:/Users/nikav/AppData/Local/Programs/Microsoft VS Code/bin/dlltool"
+      - "C:/altera/13.1/modelsim_ase/win32aloem/dlltool.com"
+      - "C:/altera/13.1/modelsim_ase/win32aloem/dlltool.exe"
+      - "C:/altera/13.1/modelsim_ase/win32aloem/dlltool"
+      - "C:/MinGW/bin/dlltool.com"
+      - "C:/MinGW/bin/dlltool.exe"
+      - "C:/MinGW/bin/dlltool"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/bin/dlltool.com"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/bin/dlltool.exe"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/bin/dlltool"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\nikav\\scoop\\apps\\python313\\current\\Scripts"
+        - "C:\\Users\\nikav\\scoop\\apps\\python313\\current"
+        - "C:\\Users\\nikav\\scoop\\apps\\git\\current\\bin"
+        - "C:\\Users\\nikav\\scoop\\shims"
+        - "C:\\Users\\nikav\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\nikav\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\altera\\13.1\\modelsim_ase\\win32aloem"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\cmake-4.3.2-windows-x86_64\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_ADDR2LINE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "addr2line"
+    candidate_directories:
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/nikav/scoop/apps/python313/current/Scripts/"
+      - "C:/Users/nikav/scoop/apps/python313/current/"
+      - "C:/Users/nikav/scoop/apps/git/current/bin/"
+      - "C:/Users/nikav/scoop/shims/"
+      - "C:/Users/nikav/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/nikav/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/altera/13.1/modelsim_ase/win32aloem/"
+      - "C:/MinGW/bin/"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/bin/"
+    searched_directories:
+      - "C:/Windows/System32/addr2line.com"
+      - "C:/Windows/System32/addr2line.exe"
+      - "C:/Windows/System32/addr2line"
+      - "C:/Windows/addr2line.com"
+      - "C:/Windows/addr2line.exe"
+      - "C:/Windows/addr2line"
+      - "C:/Windows/System32/wbem/addr2line.com"
+      - "C:/Windows/System32/wbem/addr2line.exe"
+      - "C:/Windows/System32/wbem/addr2line"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/addr2line.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/addr2line.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/addr2line"
+      - "C:/Windows/System32/OpenSSH/addr2line.com"
+      - "C:/Windows/System32/OpenSSH/addr2line.exe"
+      - "C:/Windows/System32/OpenSSH/addr2line"
+      - "C:/Program Files/Git/cmd/addr2line.com"
+      - "C:/Program Files/Git/cmd/addr2line.exe"
+      - "C:/Program Files/Git/cmd/addr2line"
+      - "C:/Users/nikav/scoop/apps/python313/current/Scripts/addr2line.com"
+      - "C:/Users/nikav/scoop/apps/python313/current/Scripts/addr2line.exe"
+      - "C:/Users/nikav/scoop/apps/python313/current/Scripts/addr2line"
+      - "C:/Users/nikav/scoop/apps/python313/current/addr2line.com"
+      - "C:/Users/nikav/scoop/apps/python313/current/addr2line.exe"
+      - "C:/Users/nikav/scoop/apps/python313/current/addr2line"
+      - "C:/Users/nikav/scoop/apps/git/current/bin/addr2line.com"
+      - "C:/Users/nikav/scoop/apps/git/current/bin/addr2line.exe"
+      - "C:/Users/nikav/scoop/apps/git/current/bin/addr2line"
+      - "C:/Users/nikav/scoop/shims/addr2line.com"
+      - "C:/Users/nikav/scoop/shims/addr2line.exe"
+      - "C:/Users/nikav/scoop/shims/addr2line"
+      - "C:/Users/nikav/AppData/Local/Microsoft/WindowsApps/addr2line.com"
+      - "C:/Users/nikav/AppData/Local/Microsoft/WindowsApps/addr2line.exe"
+      - "C:/Users/nikav/AppData/Local/Microsoft/WindowsApps/addr2line"
+      - "C:/Users/nikav/AppData/Local/Programs/Microsoft VS Code/bin/addr2line.com"
+      - "C:/Users/nikav/AppData/Local/Programs/Microsoft VS Code/bin/addr2line.exe"
+      - "C:/Users/nikav/AppData/Local/Programs/Microsoft VS Code/bin/addr2line"
+      - "C:/altera/13.1/modelsim_ase/win32aloem/addr2line.com"
+      - "C:/altera/13.1/modelsim_ase/win32aloem/addr2line.exe"
+      - "C:/altera/13.1/modelsim_ase/win32aloem/addr2line"
+      - "C:/MinGW/bin/addr2line.com"
+      - "C:/MinGW/bin/addr2line.exe"
+      - "C:/MinGW/bin/addr2line"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/bin/addr2line.com"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/bin/addr2line.exe"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/bin/addr2line"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\nikav\\scoop\\apps\\python313\\current\\Scripts"
+        - "C:\\Users\\nikav\\scoop\\apps\\python313\\current"
+        - "C:\\Users\\nikav\\scoop\\apps\\git\\current\\bin"
+        - "C:\\Users\\nikav\\scoop\\shims"
+        - "C:\\Users\\nikav\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\nikav\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\altera\\13.1\\modelsim_ase\\win32aloem"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\cmake-4.3.2-windows-x86_64\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_TAPI"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "tapi"
+    candidate_directories:
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/nikav/scoop/apps/python313/current/Scripts/"
+      - "C:/Users/nikav/scoop/apps/python313/current/"
+      - "C:/Users/nikav/scoop/apps/git/current/bin/"
+      - "C:/Users/nikav/scoop/shims/"
+      - "C:/Users/nikav/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/nikav/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/altera/13.1/modelsim_ase/win32aloem/"
+      - "C:/MinGW/bin/"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/bin/"
+    searched_directories:
+      - "C:/Windows/System32/tapi.com"
+      - "C:/Windows/System32/tapi.exe"
+      - "C:/Windows/System32/tapi"
+      - "C:/Windows/tapi.com"
+      - "C:/Windows/tapi.exe"
+      - "C:/Windows/tapi"
+      - "C:/Windows/System32/wbem/tapi.com"
+      - "C:/Windows/System32/wbem/tapi.exe"
+      - "C:/Windows/System32/wbem/tapi"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/tapi.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/tapi.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/tapi"
+      - "C:/Windows/System32/OpenSSH/tapi.com"
+      - "C:/Windows/System32/OpenSSH/tapi.exe"
+      - "C:/Windows/System32/OpenSSH/tapi"
+      - "C:/Program Files/Git/cmd/tapi.com"
+      - "C:/Program Files/Git/cmd/tapi.exe"
+      - "C:/Program Files/Git/cmd/tapi"
+      - "C:/Users/nikav/scoop/apps/python313/current/Scripts/tapi.com"
+      - "C:/Users/nikav/scoop/apps/python313/current/Scripts/tapi.exe"
+      - "C:/Users/nikav/scoop/apps/python313/current/Scripts/tapi"
+      - "C:/Users/nikav/scoop/apps/python313/current/tapi.com"
+      - "C:/Users/nikav/scoop/apps/python313/current/tapi.exe"
+      - "C:/Users/nikav/scoop/apps/python313/current/tapi"
+      - "C:/Users/nikav/scoop/apps/git/current/bin/tapi.com"
+      - "C:/Users/nikav/scoop/apps/git/current/bin/tapi.exe"
+      - "C:/Users/nikav/scoop/apps/git/current/bin/tapi"
+      - "C:/Users/nikav/scoop/shims/tapi.com"
+      - "C:/Users/nikav/scoop/shims/tapi.exe"
+      - "C:/Users/nikav/scoop/shims/tapi"
+      - "C:/Users/nikav/AppData/Local/Microsoft/WindowsApps/tapi.com"
+      - "C:/Users/nikav/AppData/Local/Microsoft/WindowsApps/tapi.exe"
+      - "C:/Users/nikav/AppData/Local/Microsoft/WindowsApps/tapi"
+      - "C:/Users/nikav/AppData/Local/Programs/Microsoft VS Code/bin/tapi.com"
+      - "C:/Users/nikav/AppData/Local/Programs/Microsoft VS Code/bin/tapi.exe"
+      - "C:/Users/nikav/AppData/Local/Programs/Microsoft VS Code/bin/tapi"
+      - "C:/altera/13.1/modelsim_ase/win32aloem/tapi.com"
+      - "C:/altera/13.1/modelsim_ase/win32aloem/tapi.exe"
+      - "C:/altera/13.1/modelsim_ase/win32aloem/tapi"
+      - "C:/MinGW/bin/tapi.com"
+      - "C:/MinGW/bin/tapi.exe"
+      - "C:/MinGW/bin/tapi"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/bin/tapi.com"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/bin/tapi.exe"
+      - "C:/Program Files/cmake-4.3.2-windows-x86_64/bin/tapi"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\nikav\\scoop\\apps\\python313\\current\\Scripts"
+        - "C:\\Users\\nikav\\scoop\\apps\\python313\\current"
+        - "C:\\Users\\nikav\\scoop\\apps\\git\\current\\bin"
+        - "C:\\Users\\nikav\\scoop\\shims"
+        - "C:\\Users\\nikav\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\nikav\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\altera\\13.1\\modelsim_ase\\win32aloem"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\cmake-4.3.2-windows-x86_64\\bin"
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CodeBlocks/MinGW/share/cmake-3.31/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Windows - 6.2.9200 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CodeBlocks/MinGW/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CodeBlocks/MinGW/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CodeBlocks/MinGW/share/cmake-3.31/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/Program Files/CodeBlocks/MinGW/bin/gcc.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+      
+      The C compiler identification is GNU, found in:
+        C:/SQProject/C_Project/build/CMakeFiles/3.31.5/CompilerIdC/a.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CodeBlocks/MinGW/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files/CodeBlocks/MinGW/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/SQProject/C_Project/build/CMakeFiles/CMakeScratch/TryCompile-lse2gc"
+      binary: "C:/SQProject/C_Project/build/CMakeFiles/CMakeScratch/TryCompile-lse2gc"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/SQProject/C_Project/build/CMakeFiles/CMakeScratch/TryCompile-lse2gc'
+        
+        Run Build Command(s): "C:/Program Files/CodeBlocks/MinGW/bin/cmake.exe" -E env VERBOSE=1 C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f Makefile cmTC_c7e0a/fast
+        mingw32-make[1]: Entering directory 'C:/SQProject/C_Project/build/CMakeFiles/CMakeScratch/TryCompile-lse2gc'
+        C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_c7e0a.dir\\build.make CMakeFiles/cmTC_c7e0a.dir/build
+        mingw32-make[2]: Entering directory 'C:/SQProject/C_Project/build/CMakeFiles/CMakeScratch/TryCompile-lse2gc'
+        Building C object CMakeFiles/cmTC_c7e0a.dir/CMakeCCompilerABI.c.obj
+        C:\\PROGRA~1\\CODEBL~1\\MinGW\\bin\\gcc.exe   -v -o CMakeFiles\\cmTC_c7e0a.dir\\CMakeCCompilerABI.c.obj -c "C:\\Program Files\\CodeBlocks\\MinGW\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
+        Using built-in specs.
+        COLLECT_GCC=C:\\PROGRA~1\\CODEBL~1\\MinGW\\bin\\gcc.exe
+        OFFLOAD_TARGET_NAMES=nvptx-none
+        Target: x86_64-w64-mingw32
+        Configured with: ../configure --prefix=/R/winlibs_staging_ucrt64/inst_gcc-14.2.0/share/gcc --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --enable-offload-targets=nvptx-none --with-pkgversion='MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders, r3' --with-tune=generic --enable-checking=release --enable-threads=posix --disable-sjlj-exceptions --disable-libunwind-exceptions --disable-serial-configure --disable-bootstrap --enable-host-shared --enable-plugin --disable-default-ssp --disable-rpath --disable-libstdcxx-debug --disable-version-specific-runtime-libs --disable-symvers --enable-languages=c,c++,fortran,lto,objc,obj-c++ --disable-gold --disable-nls --disable-stage1-checking --disable-win32-registry --disable-multilib --enable-ld --enable-libquadmath --enable-libada --enable-libssp --enable-libstdcxx --enable-lto --enable-fully-dynamic-string --enable-libgomp --enable-graphite --enable-mingw-wildcard --enable-libstdcxx-time --enable-libstdcxx-pch --with-mpc=/c/Prog/winlibs_staging_ucrt/custombuilt64 --with-mpfr=/c/Prog/winlibs_staging_ucrt/custombuilt64 --with-gmp=/c/Prog/winlibs_staging_ucrt/custombuilt64 --with-isl=/c/Prog/winlibs_staging_ucrt/custombuilt64 --disable-libstdcxx-backtrace --enable-install-libiberty --enable-__cxa_atexit --without-included-gettext --with-diagnostics-color=auto --enable-clocale=generic --with-libiconv --with-system-zlib --with-build-sysroot=/R/winlibs_staging_ucrt64/gcc-14.2.0/build_mingw/mingw-w64 CFLAGS='-I/c/Prog/winlibs_staging_ucrt/custombuilt64/include/libdl-win32   -march=nocona -msahf -mtune=generic -O2 -Wno-error=format' CXXFLAGS='-Wno-int-conversion  -march=nocona -msahf -mtune=generic -O2' LDFLAGS='-pthread -Wl,--no-insert-timestamp -Wl,--dynamicbase -Wl,--high-entropy-va -Wl,--nxcompat -Wl,--tsaware' LD=/c/Prog/winlibs_staging_ucrt/custombuilt64/share/binutils/bin/ld.exe
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 14.2.0 (MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders, r3) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_c7e0a.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_c7e0a.dir\\'
+         C:/Program Files/CodeBlocks/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/cc1.exe -quiet -v -iprefix C:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/ -D_REENTRANT C:\\Program Files\\CodeBlocks\\MinGW\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_c7e0a.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o C:\\Users\\nikav\\AppData\\Local\\Temp\\ccrrQ6Hk.s
+        GNU C17 (MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders, r3) version 14.2.0 (x86_64-w64-mingw32)
+        	compiled by GNU C version 14.2.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.27-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "C:/Program Files/CodeBlocks/MinGW/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/14.2.0/include"
+        ignoring nonexistent directory "R:/winlibs_staging_ucrt64/inst_gcc-14.2.0/share/gcc/include"
+        ignoring nonexistent directory "/R/winlibs_staging_ucrt64/inst_gcc-14.2.0/share/gcc/include"
+        ignoring duplicate directory "C:/Program Files/CodeBlocks/MinGW/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/14.2.0/include-fixed"
+        ignoring duplicate directory "C:/Program Files/CodeBlocks/MinGW/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/include"
+        ignoring nonexistent directory "/mingw/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         C:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/include
+         C:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../include
+         C:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/include-fixed
+         C:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/include
+        End of search list.
+        Compiler executable checksum: 94245774513fa7f0f98ee8b5b949a4b7
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_c7e0a.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_c7e0a.dir\\'
+         C:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_c7e0a.dir\\CMakeCCompilerABI.c.obj C:\\Users\\nikav\\AppData\\Local\\Temp\\ccrrQ6Hk.s
+        GNU assembler version 2.44 (x86_64-w64-mingw32) using BFD version (Binutils for MinGW-W64 x86_64, built by Brecht Sanders, r3) 2.44
+        COMPILER_PATH=C:/Program Files/CodeBlocks/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/;C:/Program Files/CodeBlocks/MinGW/bin/../libexec/gcc/;C:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/
+        LIBRARY_PATH=C:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/;C:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/;C:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/;C:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/;C:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_c7e0a.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_c7e0a.dir\\CMakeCCompilerABI.c.'
+        Linking C executable cmTC_c7e0a.exe
+        "C:\\Program Files\\CodeBlocks\\MinGW\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_c7e0a.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CodeBlocks\\MinGW\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_c7e0a.dir/objects.a
+        C:\\PROGRA~1\\CODEBL~1\\MinGW\\bin\\ar.exe qc CMakeFiles\\cmTC_c7e0a.dir/objects.a @CMakeFiles\\cmTC_c7e0a.dir\\objects1.rsp
+        C:\\PROGRA~1\\CODEBL~1\\MinGW\\bin\\gcc.exe  -v -Wl,-v -Wl,--whole-archive CMakeFiles\\cmTC_c7e0a.dir/objects.a -Wl,--no-whole-archive -o cmTC_c7e0a.exe -Wl,--out-implib,libcmTC_c7e0a.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+        Using built-in specs.
+        COLLECT_GCC=C:\\PROGRA~1\\CODEBL~1\\MinGW\\bin\\gcc.exe
+        COLLECT_LTO_WRAPPER=C:/Program\\ Files/CodeBlocks/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe
+        OFFLOAD_TARGET_NAMES=nvptx-none
+        Target: x86_64-w64-mingw32
+        Configured with: ../configure --prefix=/R/winlibs_staging_ucrt64/inst_gcc-14.2.0/share/gcc --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --enable-offload-targets=nvptx-none --with-pkgversion='MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders, r3' --with-tune=generic --enable-checking=release --enable-threads=posix --disable-sjlj-exceptions --disable-libunwind-exceptions --disable-serial-configure --disable-bootstrap --enable-host-shared --enable-plugin --disable-default-ssp --disable-rpath --disable-libstdcxx-debug --disable-version-specific-runtime-libs --disable-symvers --enable-languages=c,c++,fortran,lto,objc,obj-c++ --disable-gold --disable-nls --disable-stage1-checking --disable-win32-registry --disable-multilib --enable-ld --enable-libquadmath --enable-libada --enable-libssp --enable-libstdcxx --enable-lto --enable-fully-dynamic-string --enable-libgomp --enable-graphite --enable-mingw-wildcard --enable-libstdcxx-time --enable-libstdcxx-pch --with-mpc=/c/Prog/winlibs_staging_ucrt/custombuilt64 --with-mpfr=/c/Prog/winlibs_staging_ucrt/custombuilt64 --with-gmp=/c/Prog/winlibs_staging_ucrt/custombuilt64 --with-isl=/c/Prog/winlibs_staging_ucrt/custombuilt64 --disable-libstdcxx-backtrace --enable-install-libiberty --enable-__cxa_atexit --without-included-gettext --with-diagnostics-color=auto --enable-clocale=generic --with-libiconv --with-system-zlib --with-build-sysroot=/R/winlibs_staging_ucrt64/gcc-14.2.0/build_mingw/mingw-w64 CFLAGS='-I/c/Prog/winlibs_staging_ucrt/custombuilt64/include/libdl-win32   -march=nocona -msahf -mtune=generic -O2 -Wno-error=format' CXXFLAGS='-Wno-int-conversion  -march=nocona -msahf -mtune=generic -O2' LDFLAGS='-pthread -Wl,--no-insert-timestamp -Wl,--dynamicbase -Wl,--high-entropy-va -Wl,--nxcompat -Wl,--tsaware' LD=/c/Prog/winlibs_staging_ucrt/custombuilt64/share/binutils/bin/ld.exe
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 14.2.0 (MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders, r3) 
+        COMPILER_PATH=C:/Program Files/CodeBlocks/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/;C:/Program Files/CodeBlocks/MinGW/bin/../libexec/gcc/;C:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/
+        LIBRARY_PATH=C:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/;C:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/;C:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/;C:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/;C:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c7e0a.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_c7e0a.'
+         C:/Program Files/CodeBlocks/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/collect2.exe -plugin C:/Program Files/CodeBlocks/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/liblto_plugin.dll -plugin-opt=C:/Program Files/CodeBlocks/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\nikav\\AppData\\Local\\Temp\\ccAPdplE.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_c7e0a.exe C:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o -LC:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0 -LC:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc -LC:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib -LC:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib -LC:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_c7e0a.dir/objects.a --no-whole-archive --out-implib libcmTC_c7e0a.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 C:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o
+        collect2 version 14.2.0
+        C:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/Program Files/CodeBlocks/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/liblto_plugin.dll -plugin-opt=C:/Program Files/CodeBlocks/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\nikav\\AppData\\Local\\Temp\\ccAPdplE.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_c7e0a.exe C:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o -LC:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0 -LC:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc -LC:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib -LC:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib -LC:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_c7e0a.dir/objects.a --no-whole-archive --out-implib libcmTC_c7e0a.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 C:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o
+        GNU ld (Binutils for MinGW-W64 x86_64, built by Brecht Sanders, r3) 2.44
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c7e0a.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_c7e0a.'
+        mingw32-make[2]: Leaving directory 'C:/SQProject/C_Project/build/CMakeFiles/CMakeScratch/TryCompile-lse2gc'
+        mingw32-make[1]: Leaving directory 'C:/SQProject/C_Project/build/CMakeFiles/CMakeScratch/TryCompile-lse2gc'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CodeBlocks/MinGW/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
+      - "C:/Program Files/CodeBlocks/MinGW/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [C:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/include]
+          add: [C:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../include]
+          add: [C:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/include-fixed]
+          add: [C:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/include]
+        end of search list found
+        collapse include dir [C:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/include] ==> [C:/Program Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/14.2.0/include]
+        collapse include dir [C:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../include] ==> [C:/Program Files/CodeBlocks/MinGW/include]
+        collapse include dir [C:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/include-fixed] ==> [C:/Program Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/14.2.0/include-fixed]
+        collapse include dir [C:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/include] ==> [C:/Program Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include]
+        implicit include dirs: [C:/Program Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/14.2.0/include;C:/Program Files/CodeBlocks/MinGW/include;C:/Program Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/14.2.0/include-fixed;C:/Program Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CodeBlocks/MinGW/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Program Files/CodeBlocks/MinGW/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: 'C:/SQProject/C_Project/build/CMakeFiles/CMakeScratch/TryCompile-lse2gc']
+        ignore line: []
+        ignore line: [Run Build Command(s): "C:/Program Files/CodeBlocks/MinGW/bin/cmake.exe" -E env VERBOSE=1 C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f Makefile cmTC_c7e0a/fast]
+        ignore line: [mingw32-make[1]: Entering directory 'C:/SQProject/C_Project/build/CMakeFiles/CMakeScratch/TryCompile-lse2gc']
+        ignore line: [C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_c7e0a.dir\\build.make CMakeFiles/cmTC_c7e0a.dir/build]
+        ignore line: [mingw32-make[2]: Entering directory 'C:/SQProject/C_Project/build/CMakeFiles/CMakeScratch/TryCompile-lse2gc']
+        ignore line: [Building C object CMakeFiles/cmTC_c7e0a.dir/CMakeCCompilerABI.c.obj]
+        ignore line: [C:\\PROGRA~1\\CODEBL~1\\MinGW\\bin\\gcc.exe   -v -o CMakeFiles\\cmTC_c7e0a.dir\\CMakeCCompilerABI.c.obj -c "C:\\Program Files\\CodeBlocks\\MinGW\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=C:\\PROGRA~1\\CODEBL~1\\MinGW\\bin\\gcc.exe]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../configure --prefix=/R/winlibs_staging_ucrt64/inst_gcc-14.2.0/share/gcc --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --enable-offload-targets=nvptx-none --with-pkgversion='MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders, r3' --with-tune=generic --enable-checking=release --enable-threads=posix --disable-sjlj-exceptions --disable-libunwind-exceptions --disable-serial-configure --disable-bootstrap --enable-host-shared --enable-plugin --disable-default-ssp --disable-rpath --disable-libstdcxx-debug --disable-version-specific-runtime-libs --disable-symvers --enable-languages=c,c++,fortran,lto,objc,obj-c++ --disable-gold --disable-nls --disable-stage1-checking --disable-win32-registry --disable-multilib --enable-ld --enable-libquadmath --enable-libada --enable-libssp --enable-libstdcxx --enable-lto --enable-fully-dynamic-string --enable-libgomp --enable-graphite --enable-mingw-wildcard --enable-libstdcxx-time --enable-libstdcxx-pch --with-mpc=/c/Prog/winlibs_staging_ucrt/custombuilt64 --with-mpfr=/c/Prog/winlibs_staging_ucrt/custombuilt64 --with-gmp=/c/Prog/winlibs_staging_ucrt/custombuilt64 --with-isl=/c/Prog/winlibs_staging_ucrt/custombuilt64 --disable-libstdcxx-backtrace --enable-install-libiberty --enable-__cxa_atexit --without-included-gettext --with-diagnostics-color=auto --enable-clocale=generic --with-libiconv --with-system-zlib --with-build-sysroot=/R/winlibs_staging_ucrt64/gcc-14.2.0/build_mingw/mingw-w64 CFLAGS='-I/c/Prog/winlibs_staging_ucrt/custombuilt64/include/libdl-win32   -march=nocona -msahf -mtune=generic -O2 -Wno-error=format' CXXFLAGS='-Wno-int-conversion  -march=nocona -msahf -mtune=generic -O2' LDFLAGS='-pthread -Wl,--no-insert-timestamp -Wl,--dynamicbase -Wl,--high-entropy-va -Wl,--nxcompat -Wl,--tsaware' LD=/c/Prog/winlibs_staging_ucrt/custombuilt64/share/binutils/bin/ld.exe]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 14.2.0 (MinGW-W64 x86_64-ucrt-posix-seh  built by Brecht Sanders  r3) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_c7e0a.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_c7e0a.dir\\']
+        ignore line: [ C:/Program Files/CodeBlocks/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/cc1.exe -quiet -v -iprefix C:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/ -D_REENTRANT C:\\Program Files\\CodeBlocks\\MinGW\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_c7e0a.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o C:\\Users\\nikav\\AppData\\Local\\Temp\\ccrrQ6Hk.s]
+        ignore line: [GNU C17 (MinGW-W64 x86_64-ucrt-posix-seh  built by Brecht Sanders  r3) version 14.2.0 (x86_64-w64-mingw32)]
+        ignore line: [	compiled by GNU C version 14.2.0  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.27-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "C:/Program Files/CodeBlocks/MinGW/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/14.2.0/include"]
+        ignore line: [ignoring nonexistent directory "R:/winlibs_staging_ucrt64/inst_gcc-14.2.0/share/gcc/include"]
+        ignore line: [ignoring nonexistent directory "/R/winlibs_staging_ucrt64/inst_gcc-14.2.0/share/gcc/include"]
+        ignore line: [ignoring duplicate directory "C:/Program Files/CodeBlocks/MinGW/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/14.2.0/include-fixed"]
+        ignore line: [ignoring duplicate directory "C:/Program Files/CodeBlocks/MinGW/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/include"]
+        ignore line: [ignoring nonexistent directory "/mingw/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ C:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/include]
+        ignore line: [ C:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../include]
+        ignore line: [ C:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/include-fixed]
+        ignore line: [ C:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: 94245774513fa7f0f98ee8b5b949a4b7]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_c7e0a.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_c7e0a.dir\\']
+        ignore line: [ C:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_c7e0a.dir\\CMakeCCompilerABI.c.obj C:\\Users\\nikav\\AppData\\Local\\Temp\\ccrrQ6Hk.s]
+        ignore line: [GNU assembler version 2.44 (x86_64-w64-mingw32) using BFD version (Binutils for MinGW-W64 x86_64  built by Brecht Sanders  r3) 2.44]
+        ignore line: [COMPILER_PATH=C:/Program Files/CodeBlocks/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/]
+        ignore line: [C:/Program Files/CodeBlocks/MinGW/bin/../libexec/gcc/]
+        ignore line: [C:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/]
+        ignore line: [LIBRARY_PATH=C:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/]
+        ignore line: [C:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/]
+        ignore line: [C:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [C:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/]
+        ignore line: [C:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [C:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_c7e0a.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_c7e0a.dir\\CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_c7e0a.exe]
+        ignore line: ["C:\\Program Files\\CodeBlocks\\MinGW\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_c7e0a.dir\\link.txt --verbose=1]
+        ignore line: ["C:\\Program Files\\CodeBlocks\\MinGW\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_c7e0a.dir/objects.a]
+        ignore line: [C:\\PROGRA~1\\CODEBL~1\\MinGW\\bin\\ar.exe qc CMakeFiles\\cmTC_c7e0a.dir/objects.a @CMakeFiles\\cmTC_c7e0a.dir\\objects1.rsp]
+        ignore line: [C:\\PROGRA~1\\CODEBL~1\\MinGW\\bin\\gcc.exe  -v -Wl -v -Wl --whole-archive CMakeFiles\\cmTC_c7e0a.dir/objects.a -Wl --no-whole-archive -o cmTC_c7e0a.exe -Wl --out-implib libcmTC_c7e0a.dll.a -Wl --major-image-version 0 --minor-image-version 0]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=C:\\PROGRA~1\\CODEBL~1\\MinGW\\bin\\gcc.exe]
+        ignore line: [COLLECT_LTO_WRAPPER=C:/Program\\ Files/CodeBlocks/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../configure --prefix=/R/winlibs_staging_ucrt64/inst_gcc-14.2.0/share/gcc --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --enable-offload-targets=nvptx-none --with-pkgversion='MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders, r3' --with-tune=generic --enable-checking=release --enable-threads=posix --disable-sjlj-exceptions --disable-libunwind-exceptions --disable-serial-configure --disable-bootstrap --enable-host-shared --enable-plugin --disable-default-ssp --disable-rpath --disable-libstdcxx-debug --disable-version-specific-runtime-libs --disable-symvers --enable-languages=c,c++,fortran,lto,objc,obj-c++ --disable-gold --disable-nls --disable-stage1-checking --disable-win32-registry --disable-multilib --enable-ld --enable-libquadmath --enable-libada --enable-libssp --enable-libstdcxx --enable-lto --enable-fully-dynamic-string --enable-libgomp --enable-graphite --enable-mingw-wildcard --enable-libstdcxx-time --enable-libstdcxx-pch --with-mpc=/c/Prog/winlibs_staging_ucrt/custombuilt64 --with-mpfr=/c/Prog/winlibs_staging_ucrt/custombuilt64 --with-gmp=/c/Prog/winlibs_staging_ucrt/custombuilt64 --with-isl=/c/Prog/winlibs_staging_ucrt/custombuilt64 --disable-libstdcxx-backtrace --enable-install-libiberty --enable-__cxa_atexit --without-included-gettext --with-diagnostics-color=auto --enable-clocale=generic --with-libiconv --with-system-zlib --with-build-sysroot=/R/winlibs_staging_ucrt64/gcc-14.2.0/build_mingw/mingw-w64 CFLAGS='-I/c/Prog/winlibs_staging_ucrt/custombuilt64/include/libdl-win32   -march=nocona -msahf -mtune=generic -O2 -Wno-error=format' CXXFLAGS='-Wno-int-conversion  -march=nocona -msahf -mtune=generic -O2' LDFLAGS='-pthread -Wl,--no-insert-timestamp -Wl,--dynamicbase -Wl,--high-entropy-va -Wl,--nxcompat -Wl,--tsaware' LD=/c/Prog/winlibs_staging_ucrt/custombuilt64/share/binutils/bin/ld.exe]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 14.2.0 (MinGW-W64 x86_64-ucrt-posix-seh  built by Brecht Sanders  r3) ]
+        ignore line: [COMPILER_PATH=C:/Program Files/CodeBlocks/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/]
+        ignore line: [C:/Program Files/CodeBlocks/MinGW/bin/../libexec/gcc/]
+        ignore line: [C:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/]
+        ignore line: [LIBRARY_PATH=C:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/]
+        ignore line: [C:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/]
+        ignore line: [C:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [C:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/]
+        ignore line: [C:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [C:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c7e0a.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_c7e0a.']
+        ignore line: [ C:/Program Files/CodeBlocks/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/collect2.exe -plugin C:/Program Files/CodeBlocks/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/liblto_plugin.dll -plugin-opt=C:/Program Files/CodeBlocks/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\nikav\\AppData\\Local\\Temp\\ccAPdplE.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_c7e0a.exe C:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o -LC:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0 -LC:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc -LC:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib -LC:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib -LC:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_c7e0a.dir/objects.a --no-whole-archive --out-implib libcmTC_c7e0a.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 C:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o]
+        ignore line: [collect2 version 14.2.0]
+        ignore line: [C:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/Program Files/CodeBlocks/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/liblto_plugin.dll -plugin-opt=C:/Program Files/CodeBlocks/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\nikav\\AppData\\Local\\Temp\\ccAPdplE.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_c7e0a.exe C:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o -LC:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0 -LC:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc -LC:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib -LC:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib -LC:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_c7e0a.dir/objects.a --no-whole-archive --out-implib libcmTC_c7e0a.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 C:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o]
+        ignore line: [GNU ld (Binutils for MinGW-W64 x86_64  built by Brecht Sanders  r3) 2.44]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c7e0a.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_c7e0a.']
+        ignore line: [mingw32-make[2]: Leaving directory 'C:/SQProject/C_Project/build/CMakeFiles/CMakeScratch/TryCompile-lse2gc']
+        ignore line: [mingw32-make[1]: Leaving directory 'C:/SQProject/C_Project/build/CMakeFiles/CMakeScratch/TryCompile-lse2gc']
+        ignore line: []
+        ignore line: []
+        linker tool for 'C': Configured with: ../configure --prefix=/R/winlibs_staging_ucrt64/inst_gcc-14.2.0/share/gcc --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --enable-offload-targets=nvptx-none --with-pkgversion='MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders, r3' --with-tune=generic --enable-checking=release --enable-threads=posix --disable-sjlj-exceptions --disable-libunwind-exceptions --disable-serial-configure --disable-bootstrap --enable-host-shared --enable-plugin --disable-default-ssp --disable-rpath --disable-libstdcxx-debug --disable-version-specific-runtime-libs --disable-symvers --enable-languages=c,c++,fortran,lto,objc,obj-c++ --disable-gold --disable-nls --disable-stage1-checking --disable-win32-registry --disable-multilib --enable-ld --enable-libquadmath --enable-libada --enable-libssp --enable-libstdcxx --enable-lto --enable-fully-dynamic-string --enable-libgomp --enable-graphite --enable-mingw-wildcard --enable-libstdcxx-time --enable-libstdcxx-pch --with-mpc=/c/Prog/winlibs_staging_ucrt/custombuilt64 --with-mpfr=/c/Prog/winlibs_staging_ucrt/custombuilt64 --with-gmp=/c/Prog/winlibs_staging_ucrt/custombuilt64 --with-isl=/c/Prog/winlibs_staging_ucrt/custombuilt64 --disable-libstdcxx-backtrace --enable-install-libiberty --enable-__cxa_atexit --without-included-gettext --with-diagnostics-color=auto --enable-clocale=generic --with-libiconv --with-system-zlib --with-build-sysroot=/R/winlibs_staging_ucrt64/gcc-14.2.0/build_mingw/mingw-w64 CFLAGS='-I/c/Prog/winlibs_staging_ucrt/custombuilt64/include/libdl-win32   -march=nocona -msahf -mtune=generic -O2 -Wno-error=format' CXXFLAGS='-Wno-int-conversion  -march=nocona -msahf -mtune=generic -O2' LDFLAGS='-pthread -Wl,--no-insert-timestamp -Wl,--dynamicbase -Wl,--high-entropy-va -Wl,--nxcompat -Wl,--tsaware' LD=/c/Prog/winlibs_staging_ucrt/custombuilt64/share/binutils/bin/ld.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CodeBlocks/MinGW/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CodeBlocks/MinGW/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Program Files/CodeBlocks/MinGW/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the C compiler's linker: "Configured with: ../configure --prefix=/R/winlibs_staging_ucrt64/inst_gcc-14.2.0/share/gcc --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --enable-offload-targets=nvptx-none --with-pkgversion='MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders, r3' --with-tune=generic --enable-checking=release --enable-threads=posix --disable-sjlj-exceptions --disable-libunwind-exceptions --disable-serial-configure --disable-bootstrap --enable-host-shared --enable-plugin --disable-default-ssp --disable-rpath --disable-libstdcxx-debug --disable-version-specific-runtime-libs --disable-symvers --enable-languages=c,c++,fortran,lto,objc,obj-c++ --disable-gold --disable-nls --disable-stage1-checking --disable-win32-registry --disable-multilib --enable-ld --enable-libquadmath --enable-libada --enable-libssp --enable-libstdcxx --enable-lto --enable-fully-dynamic-string --enable-libgomp --enable-graphite --enable-mingw-wildcard --enable-libstdcxx-time --enable-libstdcxx-pch --with-mpc=/c/Prog/winlibs_staging_ucrt/custombuilt64 --with-mpfr=/c/Prog/winlibs_staging_ucrt/custombuilt64 --with-gmp=/c/Prog/winlibs_staging_ucrt/custombuilt64 --with-isl=/c/Prog/winlibs_staging_ucrt/custombuilt64 --disable-libstdcxx-backtrace --enable-install-libiberty --enable-__cxa_atexit --without-included-gettext --with-diagnostics-color=auto --enable-clocale=generic --with-libiconv --with-system-zlib --with-build-sysroot=/R/winlibs_staging_ucrt64/gcc-14.2.0/build_mingw/mingw-w64 CFLAGS='-I/c/Prog/winlibs_staging_ucrt/custombuilt64/include/libdl-win32   -march=nocona -msahf -mtune=generic -O2 -Wno-error=format' CXXFLAGS='-Wno-int-conversion  -march=nocona -msahf -mtune=generic -O2' LDFLAGS='-pthread -Wl,--no-insert-timestamp -Wl,--dynamicbase -Wl,--high-entropy-va -Wl,--nxcompat -Wl,--tsaware' LD=/c/Prog/winlibs_staging_ucrt/custombuilt64/share/binutils/bin/ld.exe" "-v"
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CodeBlocks/MinGW/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CodeBlocks/MinGW/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Program Files/CodeBlocks/MinGW/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the C compiler's linker: "Configured with: ../configure --prefix=/R/winlibs_staging_ucrt64/inst_gcc-14.2.0/share/gcc --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --enable-offload-targets=nvptx-none --with-pkgversion='MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders, r3' --with-tune=generic --enable-checking=release --enable-threads=posix --disable-sjlj-exceptions --disable-libunwind-exceptions --disable-serial-configure --disable-bootstrap --enable-host-shared --enable-plugin --disable-default-ssp --disable-rpath --disable-libstdcxx-debug --disable-version-specific-runtime-libs --disable-symvers --enable-languages=c,c++,fortran,lto,objc,obj-c++ --disable-gold --disable-nls --disable-stage1-checking --disable-win32-registry --disable-multilib --enable-ld --enable-libquadmath --enable-libada --enable-libssp --enable-libstdcxx --enable-lto --enable-fully-dynamic-string --enable-libgomp --enable-graphite --enable-mingw-wildcard --enable-libstdcxx-time --enable-libstdcxx-pch --with-mpc=/c/Prog/winlibs_staging_ucrt/custombuilt64 --with-mpfr=/c/Prog/winlibs_staging_ucrt/custombuilt64 --with-gmp=/c/Prog/winlibs_staging_ucrt/custombuilt64 --with-isl=/c/Prog/winlibs_staging_ucrt/custombuilt64 --disable-libstdcxx-backtrace --enable-install-libiberty --enable-__cxa_atexit --without-included-gettext --with-diagnostics-color=auto --enable-clocale=generic --with-libiconv --with-system-zlib --with-build-sysroot=/R/winlibs_staging_ucrt64/gcc-14.2.0/build_mingw/mingw-w64 CFLAGS='-I/c/Prog/winlibs_staging_ucrt/custombuilt64/include/libdl-win32   -march=nocona -msahf -mtune=generic -O2 -Wno-error=format' CXXFLAGS='-Wno-int-conversion  -march=nocona -msahf -mtune=generic -O2' LDFLAGS='-pthread -Wl,--no-insert-timestamp -Wl,--dynamicbase -Wl,--high-entropy-va -Wl,--nxcompat -Wl,--tsaware' LD=/c/Prog/winlibs_staging_ucrt/custombuilt64/share/binutils/bin/ld.exe" "-V"
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CodeBlocks/MinGW/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CodeBlocks/MinGW/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Program Files/CodeBlocks/MinGW/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the C compiler's linker: "Configured with: ../configure --prefix=/R/winlibs_staging_ucrt64/inst_gcc-14.2.0/share/gcc --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --enable-offload-targets=nvptx-none --with-pkgversion='MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders, r3' --with-tune=generic --enable-checking=release --enable-threads=posix --disable-sjlj-exceptions --disable-libunwind-exceptions --disable-serial-configure --disable-bootstrap --enable-host-shared --enable-plugin --disable-default-ssp --disable-rpath --disable-libstdcxx-debug --disable-version-specific-runtime-libs --disable-symvers --enable-languages=c,c++,fortran,lto,objc,obj-c++ --disable-gold --disable-nls --disable-stage1-checking --disable-win32-registry --disable-multilib --enable-ld --enable-libquadmath --enable-libada --enable-libssp --enable-libstdcxx --enable-lto --enable-fully-dynamic-string --enable-libgomp --enable-graphite --enable-mingw-wildcard --enable-libstdcxx-time --enable-libstdcxx-pch --with-mpc=/c/Prog/winlibs_staging_ucrt/custombuilt64 --with-mpfr=/c/Prog/winlibs_staging_ucrt/custombuilt64 --with-gmp=/c/Prog/winlibs_staging_ucrt/custombuilt64 --with-isl=/c/Prog/winlibs_staging_ucrt/custombuilt64 --disable-libstdcxx-backtrace --enable-install-libiberty --enable-__cxa_atexit --without-included-gettext --with-diagnostics-color=auto --enable-clocale=generic --with-libiconv --with-system-zlib --with-build-sysroot=/R/winlibs_staging_ucrt64/gcc-14.2.0/build_mingw/mingw-w64 CFLAGS='-I/c/Prog/winlibs_staging_ucrt/custombuilt64/include/libdl-win32   -march=nocona -msahf -mtune=generic -O2 -Wno-error=format' CXXFLAGS='-Wno-int-conversion  -march=nocona -msahf -mtune=generic -O2' LDFLAGS='-pthread -Wl,--no-insert-timestamp -Wl,--dynamicbase -Wl,--high-entropy-va -Wl,--nxcompat -Wl,--tsaware' LD=/c/Prog/winlibs_staging_ucrt/custombuilt64/share/binutils/bin/ld.exe" "--version"
+      
+...

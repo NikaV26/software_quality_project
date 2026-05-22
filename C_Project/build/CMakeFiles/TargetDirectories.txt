@@ -1,0 +1,6 @@
+C:/SQProject/C_Project/build/CMakeFiles/math_functions.dir
+C:/SQProject/C_Project/build/CMakeFiles/main.dir
+C:/SQProject/C_Project/build/CMakeFiles/test_runner.dir
+C:/SQProject/C_Project/build/CMakeFiles/test.dir
+C:/SQProject/C_Project/build/CMakeFiles/edit_cache.dir
+C:/SQProject/C_Project/build/CMakeFiles/rebuild_cache.dir
