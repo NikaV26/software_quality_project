@@ -21,8 +21,8 @@ jobs:
         run: gcc C_Project/main.c -o c_program
 
       - name: Run C unit tests
-        run: gcc C_Project/tests/test.c C_Project/main.c -o c_test && ./c_test
-
+        run: gcc C_Project/test.c C_Project/main.c -o c_test && ./c_test
+        
       - name: Static analysis C
         run: cppcheck --enable=all --error-exitcode=1 C_Project
 
