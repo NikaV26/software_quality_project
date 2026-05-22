@@ -1,0 +1,46 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - main
+
+  pull_request:
+
+jobs:
+  c-project:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install tools
+        run: sudo apt update && sudo apt install -y build-essential cppcheck
+
+      - name: Build C program
+        run: gcc C_Project/src/main.c -o c_program
+
+      - name: Run C unit tests
+        run: gcc C_Project/tests/test.c C_Project/src/main.c -o c_test && ./c_test
+
+      - name: Static analysis C
+        run: cppcheck --enable=all --error-exitcode=1 C_Project
+
+  python-project:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install python tools
+        run: pip install pytest flake8
+
+      - name: Run Python unit tests
+        run: pytest PythonProject
+
+      - name: Static analysis Python
+        run: flake8 PythonProject
