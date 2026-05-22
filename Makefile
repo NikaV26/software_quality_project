@@ -10,3 +10,9 @@ clean:
 
 check:
 	cppcheck --enable=all --suppress=missingIncludeSystem C_Project/main.c C_Project/math_functions.c C_Project/test.c
+
+python-test:
+	pytest PythonProject
+
+python-check:
+	flake8 PythonProject
