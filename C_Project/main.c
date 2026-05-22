@@ -1,16 +1,8 @@
 #include <stdio.h>
+#include "math_functions.h"
 
-int add(int a, int b) {
-    return a + b;
-}
-
-int main() {
-    int x = 5;
-    int y = 3;
-
-    int result = add(x, y);
-
-    printf("Ergebnis: %d\n", result);
-
+int main()
+{
+    printf("%d\n", add(2,3));
     return 0;
 }

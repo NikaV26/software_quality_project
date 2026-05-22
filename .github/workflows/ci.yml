@@ -18,11 +18,11 @@ jobs:
         run: sudo apt update && sudo apt install -y build-essential cppcheck
 
       - name: Build C program
-        run: gcc C_Project/main.c -o c_program
+        run: gcc C_Project/main.c C_Project/math_functions.c -o c_program
 
       - name: Run C unit tests
-        run: gcc C_Project/test.c C_Project/main.c -o c_test && ./c_test
-        
+        run: gcc C_Project/test.c C_Project/math_functions.c -o c_test && ./c_test
+
       - name: Static analysis C
         run: cppcheck --enable=all --error-exitcode=1 C_Project
 

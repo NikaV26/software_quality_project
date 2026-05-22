@@ -1,0 +1,6 @@
+#ifndef MATH_FUNCTIONS_H_INCLUDED
+#define MATH_FUNCTIONS_H_INCLUDED
+
+int add(int a, int b);
+
+#endif // MATH_FUNCTIONS_H_INCLUDED
