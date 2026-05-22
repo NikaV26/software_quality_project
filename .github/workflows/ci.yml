@@ -24,7 +24,7 @@ jobs:
         run: gcc C_Project/test.c C_Project/math_functions.c -o c_test && ./c_test
 
       - name: Static analysis C
-        run: cppcheck --enable=all --error-exitcode=1 C_Project
+        run: cppcheck --enable=all --suppress=missingIncludeSystem --error-exitcode=1 C_Project
 
   python-project:
     runs-on: ubuntu-latest
